@@ -1,23 +1,40 @@
-# 👋 Hey, I’m Isaiah Kim
+# 👋 Hey, I'm Isaiah Kim
 
-I'm a front-end engineer passionate about UI systems, performance, and beautiful design. Currently building thoughtful interfaces with Angular, React, and Jetpack Compose.
-
-- 🗽 Based in **New York City**
-- 🛠️ Focused on **design systems**, **open source**, and **human-centered tooling**
-- 💌 Reach me at [kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com) or [LinkedIn](https://www.linkedin.com/in/kyisaiah47/)
-- ⚡ Fun fact: I probably have Figma open *and* a terminal tab at all times
+**Senior Software Engineer • Frontend-First • Web3 & AI Enthusiast**  
+📍 New York, NY | 🌐 [Portfolio](https://kyisaiah47.vercel.app) | 💼 [LinkedIn](https://linkedin.com/in/kyisaiah47)
 
 ---
 
-🧪 Currently experimenting with:
-- ✳️ Storybook & shadcn/ui component libraries
-- 🎨 Emotionally resonant UX with TailwindCSS and Framer Motion
-- 🌐 Cross-platform UI with Jetpack Compose Multiplatform
-- 🧠 AI + Web3 identity with onchain profile oracles
+## 💡 What I Do
+I craft **fast, scalable, and user-focused applications** — from **enterprise fintech platforms** to **AI-powered side projects**. My expertise spans **Angular**, **React**, **Next.js**, and **TailwindCSS**, with growing mastery in **Web3**, **Solidity**, and **mobile development**.
+
+I thrive on solving complex problems, building clean UIs, and experimenting with **emerging technologies** through hackathons and personal projects.
 
 ---
 
-<!---
-kyisaiah47/kyisaiah47 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🛠️ Tech at a Glance
+
+**Frontend:** Angular (v20), React, Next.js, TailwindCSS, RxJS, Storybook, React Native  
+**Backend & Blockchain:** Node.js, Java (Spring Boot), Solidity  
+**Tooling & Infra:** Azure DevOps, Supabase, Vercel, PostgreSQL, REST APIs, Swagger  
+**AI/LLM:** Gemini API, OpenAI, Prompt Engineering, AI-driven UX  
+
+---
+
+## 🚀 Featured Work
+
+- **KindredAI** — Taste-based AI matchmaking app using Qloo + Gemini. *(Next.js, Supabase, shadcn/ui)*  
+- **Deep Cut** — AI-generated multiplayer card game with dynamic decks. *(Gemini AI, Supabase)*  
+- **Split Protocol** — ETHGlobal finalist: DeFi expense sharing with smart contracts. *(Solidity, React)*  
+- **Proof of Work** — Mobile freelance platform with verifiable on-chain payments. *(React Native, XION Dave SDK)*  
+
+---
+
+## 📫 Let’s Connect
+- 📧 **Email:** kyisaiah47@gmail.com  
+- 💼 **LinkedIn:** [linkedin.com/in/kyisaiah47](https://linkedin.com/in/kyisaiah47)  
+- 🌐 **Portfolio:** [kyisaiah47.vercel.app](https://kyisaiah47.vercel.app)
+
+---
+
+✨ *"Always building. Always learning. Always shipping."*
