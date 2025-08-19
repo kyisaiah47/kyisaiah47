@@ -6,7 +6,7 @@
 ---
 
 ## 💡 What I Do
-I craft **fast, scalable, and user-focused applications** — from **enterprise fintech platforms** to **AI-powered side projects**. My expertise spans **Angular**, **React**, **Next.js**, and **TailwindCSS**, with growing mastery in **Web3**, **Solidity**, and **mobile development**.
+I craft **fast, scalable, and user-focused applications** — from **enterprise fintech platforms** to **AI-powered side projects**. My expertise spans **Angular**, **React**, **Next.js**, and **TailwindCSS**, with growing mastery in **Web3** and **mobile development**.
 
 I thrive on solving complex problems, building clean UIs, and experimenting with **emerging technologies** through hackathons and personal projects.
 
@@ -14,7 +14,7 @@ I thrive on solving complex problems, building clean UIs, and experimenting with
 
 ## 🛠️ Tech at a Glance
 
-**Frontend:** Angular (v20), React, Next.js, TailwindCSS, RxJS, Storybook, React Native  
+**Frontend:** Angular, React, Next.js, TailwindCSS, RxJS, Storybook, React Native (Expo), shadcn/ui, Lucide Icons, Motion 
 **Backend & Blockchain:** Node.js, Java (Spring Boot), Solidity  
 **Tooling & Infra:** Azure DevOps, Supabase, Vercel, PostgreSQL, REST APIs, Swagger  
 **AI/LLM:** Gemini API, OpenAI, Prompt Engineering, AI-driven UX  
