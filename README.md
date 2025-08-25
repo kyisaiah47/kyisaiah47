@@ -73,21 +73,4 @@ An immersive anime-inspired RPG world that transforms mundane habit tracking int
 
 ---
 
-## 🎯 What I'm Building
-
-I'm passionate about creating **immersive digital experiences** that blend cutting-edge technology with engaging user interactions. Whether it's building blockchain-powered freelance platforms, anime-inspired habit trackers, or AI-driven content engines, I focus on:
-
-- **Seamless monetization** strategies with subscription models and microtransactions
-- **Social mechanics** that drive engagement and community building  
-- **Gamification** that transforms everyday activities into exciting experiences
-- **Cross-platform development** with React Native and modern web technologies
-
----
-
-## 📊 GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=kyisaiah47&show_icons=true&theme=radical)
-
----
-
 *Building the future, one commit at a time* ⚡
