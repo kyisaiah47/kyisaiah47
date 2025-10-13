@@ -17,7 +17,7 @@ I build 0→1 products that solve real problems with beautiful UX and thoughtful
 
 ## 🚀 Featured Projects
 
-### [Templata](https://github.com/kyisaiah47/templata) - *Passion Project*
+### [Templata](https://www.templata.org/) - *Passion Project*
 
 > **Wikipedia meets Notion for Life's Biggest Moments**
 
