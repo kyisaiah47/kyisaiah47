@@ -1,76 +1,148 @@
-# Hey there! I'm Isaiah 👋
+# Hey, I'm Isaiah 👋
 
-**Software Engineer @ SS&C Technologies** | **Full-Stack Developer** | **Blockchain Enthusiast**
+**Senior Software Engineer** | 7+ Years Experience | **Product-Focused** | **Front-End Leaning**
 
-💼 [LinkedIn](https://www.linkedin.com/in/kyisaiah47/)
-
----
-
-## 🚀 Recent Highlights
-
-### 🏆 ProofPay - Mobile Freelance Platform
-*Built for XION hackathon*
-
-A revolutionary **mobile freelance platform** that brings verifiable work and seamless on-chain payments together. ProofPay eliminates trust issues in remote work by enabling transparent proof-of-work submission and instant blockchain-based payments.
-
-**Tech Stack:** React Native, Expo Router, XION Dave SDK, Abstraxion Wallet, CosmWasm, Rust
-
-- 📱 **Frontend:** [`proofpay`](https://github.com/kyisaiah47/proofpay) - Intuitive mobile app with wallet integration
-- ⚡ **Smart Contract:** [`proofpay-contract`](https://github.com/kyisaiah47/proofpay-contract) - On-chain job posting and payment logic
-
-### 🗼 Level Up - Anime RPG Habit Tracker
-*Built for RevenueCat Shipaton 2025*
-
-**"Level up your life, one quest at a time."**
-
-An immersive anime-inspired RPG world that transforms mundane habit tracking into epic adventures. Daily habits become quests, streaks unlock Tower floors, and avatars evolve through legendary classes in seasonal realms with guild raids and collectible cosmetics.
-
-**Tech Stack:** React Native, Expo, RevenueCat SDK, Supabase, Lottie Animations  
-**Key Features:**
-- 🗼 **100-Floor Tower** progression system with epic evolution cutscenes
-- 🌍 **Seasonal Worlds** rotating every 2-3 months with themed bonuses  
-- ⚔️ **Guild System** with collaborative boss raids and social accountability
-- 🎭 **Avatar Evolution** from Novice → Fighter/Mage/Archer → Legendary Classes
-- 💰 **Full Monetization** with subscriptions, consumables, passes, and gacha system
-
-[`level-up`](https://github.com/kyisaiah47/level-up) - Complete RPG habit world with comprehensive monetization strategy
+I build 0→1 products that solve real problems with beautiful UX and thoughtful branding. I'm obsessed with the intersection of **engineering**, **design**, and **product thinking**—and I sharpen my skills through hackathons and side projects.
 
 ---
 
-## 🛠️ Other Notable Projects & Hackathon Submissions
+## 🛠️ What I Do
 
-### AI/ML Projects
-- **🤖 Contentr** - AI-powered content strategy engine with end-to-end workflow automation using TiDB Serverless vector search
-- **🩺 AI Wellness Journal** - Intelligent symptom tracking with AI-powered doctor report generation for preventive care  
-- **🌐 MediTongue Web** - Offline AI medical translator with emergency detection powered by GPT-OSS 20B
-- **🎵 KindredAI** - Social discovery app using Qloo's Taste AI for cultural preference matching
-
-### Gaming & Interactive
-- **🎮 Deep Cut** - AI party game featuring "Kiro," an AI host generating personalized prompts using GPT-4o
-- **📚 CrowdRead** - Community-driven reading platform
-
-### Web3 & Blockchain  
-- **💰 Split Protocol** - Web3-native resource splitting with customizable payout logic
-- **📊 StoryPulse** - Data visualization and analytics platform
-
-### Developer Tools & APIs
-- **⚡ Go Demo** - High-performance task management API (10k+ req/sec, 10MB memory, 3ms startup)
-- **🐍 FastAPI Demo** - Modern Python async API with automatic documentation and type safety
-- **🏗️ NestJS Demo** - Task management API demonstrating Angular-like backend patterns
+- **Product Engineering**: I don't just write code—I build products. From idea validation to launch, I thrive in the 0→1 phase where every decision matters.
+- **Front-End Architecture**: React, Next.js, TypeScript, and modern CSS. I care deeply about performance, accessibility, and developer experience.
+- **Branding & Design Systems**: I believe great products need great branding. I design cohesive visual identities, color systems, and component libraries.
+- **Full-Stack When Needed**: Supabase, PostgreSQL, serverless functions, Web3 smart contracts—I can handle the backend when the product demands it.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-**Languages:** TypeScript, JavaScript, Python, Go, Rust, Kotlin  
-**Frontend:** React, React Native, Next.js, Tailwind CSS  
-**Backend:** Node.js, FastAPI, NestJS, Gin, Supabase  
-**Blockchain:** CosmWasm, XION, Web3  
-**AI/ML:** OpenAI GPT-4o, TiDB Vector Search, Qloo Taste AI  
-**Mobile:** React Native, Expo Router, RevenueCat SDK  
-**Databases:** PostgreSQL, TiDB, Vector Databases  
-**Animation:** Lottie, React Native Reanimated
+### [Templata](https://github.com/kyisaiah47/templata) - *Passion Project*
+
+> **Wikipedia meets Notion for Life's Biggest Moments**
+
+AI-curated life guidance at massive scale. **1,300+ templates**, **104,000+ action prompts**, and **26,000+ expert articles** for every major life situation.
+
+- **Stack**: Next.js 15, React 19, TypeScript, Supabase, Tailwind CSS, TipTap Editor
+- **Highlights**: 10 flexible view modes (Chat, Board, Timeline, Table, etc.), Axiom AI Engine, 100% free core features
+- **Scale**: 2+ million pieces of AI-curated guidance
+- **Why it matters**: Traditional productivity tools force you into their workflow. Templata adapts to yours.
 
 ---
 
-*Building the future, one commit at a time* ⚡
+### [Continuum](https://github.com/kyisaiah47/continuum)
+
+> **The Trust Layer for Data Exchange** | *Polkadot Cloud Hackathon 2025*
+
+A three-product ecosystem that flips the data ownership model: **Myn** (personal data wallet), **Ethos** (ethical CRM), and **Continuum** (blockchain protocol).
+
+- **Stack**: Next.js 15, ink! v5.0 Smart Contracts, Polkadot, Supabase, TypeScript
+- **Highlights**: Payment escrow, time-limited access, cryptographic proof of consent, Row Level Security
+- **Why it matters**: Companies shouldn't own customer data forever. Continuum gives individuals control and gets them paid for sharing data.
+- **Demo**: [Watch on YouTube](https://youtu.be/DrZ8aSibqEQ)
+
+---
+
+### [Portable](https://github.com/kyisaiah47/portable)
+
+> **Financial Clarity for Gig Workers**
+
+The first financial platform built from the ground up for the 70 million Americans in the gig economy.
+
+- **Stack**: Next.js 15, TypeScript, Supabase, Tailwind CSS, Recharts
+- **Highlights**: Automatic income detection (50+ platforms), smart expense categorization, real-time tax calculations, income stability scoring
+- **Why it matters**: Banks don't understand variable income. Credit bureaus penalize flexibility. Portable solves the $3,000-$5,000 in deductions gig workers miss every year.
+- **Design**: Modern fintech aesthetic with gradients, dark mode, and data-first visualizations
+
+---
+
+### [Level Up](https://github.com/kyisaiah47/level-up)
+
+> **Transform Habits into Adventures**
+
+An anime-style RPG habit tracker where you climb a 100-floor tower and evolve through 32 character classes.
+
+- **Stack**: React Native, Expo SDK 53, TypeScript, Supabase
+- **Highlights**: 100-floor tower visualization, 32 character classes, 7 seasonal worlds, forgiveness tokens, 100% free
+- **Why it matters**: Duolingo's gamification quality applied to ALL your habits, with a more serious aesthetic than Habitica
+- **Brand**: "The Wise Mentor"—supportive but challenging, mysterious but trustworthy
+
+---
+
+### [Turntables](https://github.com/kyisaiah47/turntables)
+
+> **AI-Powered Restaurant Management** | *Cloud Run Hackathon 2025*
+
+Multi-agent system using Google Gemini to optimize seating, predict no-shows, and maximize restaurant revenue.
+
+- **Stack**: Next.js 15, Python (Google Agent Development Kit), Google Cloud Run, Gemini 1.5 Flash, Supabase
+- **Highlights**: 4 specialized AI agents (No-Show Predictor, Table Optimizer, Wait Time Estimator, Orchestrator), all deployed as Cloud Run services
+- **Why it matters**: Restaurants lose 10-15% of reservations to no-shows. Turntables uses AI to predict and prevent this.
+- **Demo**: [Live App](https://turntables-frontend-111263248635.us-central1.run.app)
+
+---
+
+## 💼 My Approach
+
+**Product First, Always**
+- I ask "Why are we building this?" before "How do we build this?"
+- I validate assumptions early and ship fast
+- I care about metrics that matter: retention, engagement, NPS
+
+**Branding as a Product Feature**
+- Great design isn't decoration—it's trust, clarity, and delight
+- I build design systems, not just screens
+- Every color, font, and animation has a purpose
+
+**Hackathons = Learning in Public**
+- I use hackathons to stay sharp on emerging tech (Web3, AI agents, serverless)
+- I ship real products, not just demos
+- I learn by doing, not just reading docs
+
+---
+
+## 🧰 Tech Stack
+
+**Languages & Frameworks**
+- TypeScript, JavaScript, React, Next.js, React Native
+
+**Styling & Design**
+- Tailwind CSS, CSS-in-JS, shadcn/ui, Radix UI, Framer Motion
+
+**Backend & Data**
+- Supabase, PostgreSQL, Next.js API Routes, Serverless Functions
+
+**AI & Web3**
+- Google Gemini (ADK), Polkadot, ink! Smart Contracts, OpenAI
+
+**Tools & Platforms**
+- Vercel, Google Cloud Run, Expo, Figma, Git, Playwright
+
+---
+
+## 📫 Let's Connect
+
+- **Email**: [kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)
+- **LinkedIn**: [linkedin.com/in/kyisaiah47](https://linkedin.com/in/kyisaiah47)
+- **Twitter**: [@kyisaiah47](https://x.com/kyisaiah47)
+
+---
+
+## 🎯 What I'm Looking For
+
+I'm open to opportunities where I can:
+- **Build 0→1 products** with high ownership and creative freedom
+- **Lead front-end architecture** and design system development
+- **Shape product direction** through user research and data
+- **Work with modern tech** (Next.js, TypeScript, AI, Web3)
+- **Collaborate with designers** who care as much about craft as I do
+
+If you're building something interesting, let's chat.
+
+---
+
+*"Your work is portable. Your financial platform should be too."* — Portable
+
+*"Skip the blank page. Organize life's biggest moments with AI-powered templates."* — Templata
+
+*"The trust layer for data exchange. Built on Polkadot."* — Continuum
