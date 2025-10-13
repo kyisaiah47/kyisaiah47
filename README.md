@@ -82,44 +82,6 @@ Multi-agent system using Google Gemini to optimize seating, predict no-shows, an
 
 ---
 
-## 💼 My Approach
-
-**Product First, Always**
-- I ask "Why are we building this?" before "How do we build this?"
-- I validate assumptions early and ship fast
-- I care about metrics that matter: retention, engagement, NPS
-
-**Branding as a Product Feature**
-- Great design isn't decoration—it's trust, clarity, and delight
-- I build design systems, not just screens
-- Every color, font, and animation has a purpose
-
-**Hackathons = Learning in Public**
-- I use hackathons to stay sharp on emerging tech (Web3, AI agents, serverless)
-- I ship real products, not just demos
-- I learn by doing, not just reading docs
-
----
-
-## 🧰 Tech Stack
-
-**Languages & Frameworks**
-- TypeScript, JavaScript, React, Next.js, React Native
-
-**Styling & Design**
-- Tailwind CSS, CSS-in-JS, shadcn/ui, Radix UI, Framer Motion
-
-**Backend & Data**
-- Supabase, PostgreSQL, Next.js API Routes, Serverless Functions
-
-**AI & Web3**
-- Google Gemini (ADK), Polkadot, ink! Smart Contracts, OpenAI
-
-**Tools & Platforms**
-- Vercel, Google Cloud Run, Expo, Figma, Git, Playwright
-
----
-
 ## 📫 Let's Connect
 
 - **Email**: [kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)
