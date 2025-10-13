@@ -53,6 +53,7 @@ The first financial platform built from the ground up for the 70 million America
 - **Highlights**: Automatic income detection (50+ platforms), smart expense categorization, real-time tax calculations, income stability scoring
 - **Why it matters**: Banks don't understand variable income. Credit bureaus penalize flexibility. Portable solves the $3,000-$5,000 in deductions gig workers miss every year.
 - **Design**: Modern fintech aesthetic with gradients, dark mode, and data-first visualizations
+- **Demo**: [Watch on YouTube](https://youtu.be/9AjgeyStgtI?si=5Ht0Ab7hAfR1VJng)
 
 ---
 
