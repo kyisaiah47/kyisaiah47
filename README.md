@@ -5,8 +5,8 @@
 <p>Staff Frontend Engineer &nbsp;·&nbsp; Full-Stack &nbsp;·&nbsp; New York</p>
 
 <p>
-8 years building the cross-functional layer between engineering, product, and design.<br/>
-Currently Senior Web Engineer at DNA.inc, embedded on a greenfield Fortune 500 fintech build.
+8 years doing the work most technical leaders avoid — keeping engineering, product, design, and QA in sync.<br/>
+Full-stack, but sharpest close to the product. Currently at DNA.inc, embedded on a greenfield Fortune 500 fintech build.
 </p>
 
 <a href="https://isaiah-kim-bot.vercel.app">
@@ -37,13 +37,13 @@ Currently Senior Web Engineer at DNA.inc, embedded on a greenfield Fortune 500 f
 
 | | Project | What it is |
 |---|---|---|
-| 🤖 | [isaiah-bot](https://github.com/kyisaiah47/isaiah-bot) · [**Live →**](https://isaiah-kim-bot.vercel.app) | AI recruiter chatbot answering questions about me — Claude Sonnet, deployed serverless on Vercel |
+| 🤖 | [isaiah-bot](https://github.com/kyisaiah47/isaiah-bot) · [**Live →**](https://isaiah-kim-bot.vercel.app) | AI chatbot that answers recruiter questions about me — comp, background, why Staff. Claude Sonnet on Vercel. |
 | 🏆 | [btcusd-stablecoin](https://github.com/kyisaiah47/btcusd-stablecoin) | **1st Place, Starknet Re{Solve} Hackathon** — Bitcoin-backed stablecoin with automated yield farming |
-| 🔍 | [argus](https://github.com/kyisaiah47/argus) | Autonomous DFIR agent on SANS SIFT — corroborates every finding with a second tool before reporting |
-| ⚙️ | [agentic-sdlc](https://github.com/kyisaiah47/agentic-sdlc) | Claude Code + UiPath + Maestro BPMN — full PR-to-prod pipeline with human approval gates |
-| 📊 | [rankforge](https://github.com/kyisaiah47/rankforge) | Leaderboard-as-a-service — DynamoDB single-table design, real-time SSE, Next.js 16 PPR |
-| ☁️ | [cloudwatch-genius](https://github.com/kyisaiah47/cloudwatch-genius) | Autonomous anomaly detection + self-healing remediation via AWS Bedrock & Claude |
-| 🌐 | [meditongue-web](https://github.com/kyisaiah47/meditongue-web) | Offline AI medical translator with emergency detection — GPT-OSS 20B |
+| 🔍 | [argus](https://github.com/kyisaiah47/argus) | Autonomous DFIR agent — built to investigate, corroborate, and report without a human in the loop |
+| ⚙️ | [agentic-sdlc](https://github.com/kyisaiah47/agentic-sdlc) | Full PR-to-prod pipeline: Claude Code reviews, UiPath tests, Maestro BPMN orchestrates with human approval gates |
+| 📊 | [rankforge](https://github.com/kyisaiah47/rankforge) | Drop-in leaderboard service for game devs — single-table DynamoDB, real-time SSE, Next.js 16 PPR |
+| ☁️ | [cloudwatch-genius](https://github.com/kyisaiah47/cloudwatch-genius) | Autonomous AWS monitoring agent — detects anomalies and self-heals without waiting for an on-call page |
+| 🌐 | [meditongue-web](https://github.com/kyisaiah47/meditongue-web) | Offline AI medical translator with emergency detection — built to work where connectivity can't be assumed |
 | 🔀 | [multiagent-code-review](https://github.com/kyisaiah47/multiagent-code-review) | 5 specialist AI agents review code concurrently, debate findings, and deliver a consensus report |
 
 ---
