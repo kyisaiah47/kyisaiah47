@@ -2,7 +2,7 @@
 
 **Staff Software Engineer · Founder, [Kynth Studios](https://kynth.studio)**
 
-NYC. Solo-shipping AI products at **[kynth.studio](https://kynth.studio)** — thirteen live multi-tenant applications spanning legal automation, medical billing, AI receptionists, sales intelligence, accounts receivable, product discovery, and consumer software. Production-grade shared infrastructure: Stripe Connect, Supabase + Google OAuth across all properties, AWS Aurora DSQL on the operations-tier products, and a self-built distribution pipeline (Playwright + Screen Studio demo production, cross-platform launch automation).
+NYC. Solo-shipping AI products at **[kynth.studio](https://kynth.studio)** — 70+ live multi-tenant applications spanning legal automation, medical billing, AI receptionists, sales intelligence, accounts receivable, product discovery, and consumer software. Production-grade shared infrastructure: Stripe Connect, Supabase + Google OAuth across all properties, AWS Aurora DSQL on the operations-tier products, and a self-built distribution pipeline (Playwright + Screen Studio demo production, cross-platform launch automation).
 
 Eight years as a software engineer. Previously sole web engineer for SS&C's Private Markets division (six enterprise applications, 109-component Angular DevOps platform used daily by 20–30 engineers, AI-assisted code-gen system that cut an estimated 12+ months of work to 2–3). Earlier: USCIS government contract serving millions, NFT smart-contract launch as team lead, and a Vue.js proptech rebuild.
 
