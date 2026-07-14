@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#000}
+  .banner{
+    width:1600px;height:460px;position:relative;overflow:hidden;
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    background-size:cover;background-position:center;
+  }
+  .banner.dark{ background-image:url('file:///Users/admin/Projects/kynth/brand-studio/plates/03-redtile-plate.png'); }
+  .banner.aurora{ background-image:url('file:///Users/admin/Projects/kynth/brand-studio/plates/01-kynth-plate.png'); }
+
+  /* --- 3-col x 2-row rule frame --- */
+  .frame{position:absolute;top:21%;bottom:21%;left:5.5%;right:5.5%;
+    border:1px solid rgba(255,255,255,.16)}
+  .vline{position:absolute;top:0;bottom:0;width:1px;background:rgba(255,255,255,.11)}
+  .hline{position:absolute;left:0;right:0;height:1px;background:rgba(255,255,255,.11)}
+  .vline.a{left:33.333%}.vline.b{left:66.666%}
+  .hline.m{top:50%}
+  .tick{position:absolute;width:9px;height:9px;background:rgba(255,255,255,.55);
+    transform:translate(-50%,-50%)}
+
+  /* --- framing labels --- */
+  .lab{position:absolute;font-weight:600;font-size:15px;letter-spacing:.26em;
+    text-transform:uppercase;color:rgba(255,255,255,.82)}
+  .top{top:8.5%;left:50%;transform:translateX(-50%)}
+  .bl{bottom:8.5%;left:5.5%}
+  .br{bottom:8.5%;right:5.5%}
+
+  /* --- center wordmark --- */
+  .word{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    color:#fff;font-weight:800;letter-spacing:.03em;font-size:92px;
+    text-shadow:0 4px 30px rgba(0,0,0,.4)}
+</style>
+</head>
+<body>
+  <div class="banner dark" id="banner">
+    <div class="frame">
+      <div class="vline a"></div><div class="vline b"></div>
+      <div class="hline m"></div>
+      <div class="tick" style="left:33.333%;top:50%"></div>
+      <div class="tick" style="left:66.666%;top:50%"></div>
+    </div>
+
+    <div class="lab top">Staff Engineer &nbsp;·&nbsp; 0-to-1 Product Builder &nbsp;·&nbsp; NYC</div>
+    <div class="word">@kyisaiah47</div>
+    <div class="lab bl">Founder, Kynth Studios</div>
+    <div class="lab br">AI Leverage at Studio Scale</div>
+  </div>
+  <script>
+    var h = location.hash.replace('#','');
+    if (h) document.getElementById('banner').className = 'banner ' + h;
+  </script>
+</body>
+</html>

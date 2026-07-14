@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#000}
+  .strip{width:1600px;height:104px;position:relative;overflow:hidden;
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;background-size:cover;}
+  .strip::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(6,5,12,.60) 0%,rgba(6,5,12,.30) 50%,rgba(6,5,12,.60) 100%);}
+  .title{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;text-align:center;
+    color:#fff;font-weight:800;font-size:44px;letter-spacing:-.015em;
+    text-shadow:0 2px 24px rgba(0,0,0,.75)}
+</style>
+</head>
+<body>
+  <div class="strip" id="strip"><div class="title" id="title">Section</div></div>
+  <script>
+    var P = 'file:///Users/admin/Projects/kynth/brand-studio/plates/';
+    var MAP = {
+      building:   {t:"What I'm building", img:'03-redtile-plate.png', p:"50% 45%"},
+      work:       {t:"Selected work",     img:'AI_Bg_089.png', p:"50% 42%"},
+      recognition:{t:"Recognition",       img:'AI_Bg_078.png', p:"50% 60%"},
+      stack:      {t:"Stack",             img:'AI_Bg_084.png', p:"50% 58%"}
+    };
+    var key = location.hash.replace('#','') || 'building';
+    var cfg = MAP[key];
+    document.getElementById('title').textContent = cfg.t;
+    var s = document.getElementById('strip');
+    s.style.backgroundImage = "url('" + P + cfg.img + "')";
+    s.style.backgroundPosition = cfg.p;
+  </script>
+</body>
+</html>
