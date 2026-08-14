@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/banner.png" alt="Isaiah Kim — Staff Engineer · 0-to-1 Product Builder · NYC" width="100%">
+<img src="./assets/banner.png" alt="Isaiah Kim — Founder, Kynth Studios · Staff Engineer · 0-to-1 Product Builder · NYC" width="100%">
 
-### Staff engineer & 0-to-1 product builder — I use AI leverage to do what normally takes a team.
+### Founder & staff engineer — I use AI leverage to do what normally takes a team.
 
 <br>
 
