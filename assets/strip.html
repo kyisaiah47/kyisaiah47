@@ -8,31 +8,53 @@
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:#000}
+
+  /* ONE gradient, eyedropped off the banner plate (AI_Bg_044) so the strips and the banner
+     are the same palette. Each strip shows a different SLICE of it — section 01 sits at the
+     red end, 03 at the indigo end — via background-size:300% + background-position.
+     ⛔ This is CSS, not a photograph, on purpose: the previous strips cropped scenic plates
+     that had nothing to do with their section, and one of the plates they referenced had
+     already been deleted. A gradient cannot go missing. */
   .strip{width:1600px;height:104px;position:relative;overflow:hidden;
-    font-family:"Bricolage Grotesque",system-ui,sans-serif;background-size:cover;}
-  .strip::after{content:"";position:absolute;inset:0;
-    background:linear-gradient(90deg,rgba(6,5,12,.60) 0%,rgba(6,5,12,.30) 50%,rgba(6,5,12,.60) 100%);}
-  .title{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;text-align:center;
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    background-image:linear-gradient(100deg,
+      #8e1f34 0%, #b8392c 18%, #d9622a 34%, #7b3560 56%, #3b2f6b 76%, #241d47 100%);
+    background-size:300% 100%;}
+  .grain{position:absolute;inset:0;opacity:.30;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='140' height='140' filter='url(%23n)' opacity='.55'/></svg>");}
+  .veil{position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(8,6,16,.42) 0%,rgba(8,6,16,.14) 50%,rgba(8,6,16,.42) 100%);}
+  .idx{position:absolute;left:2.6%;top:50%;transform:translateY(-50%);z-index:3;
+    font-weight:600;font-size:15px;letter-spacing:.26em;color:rgba(255,255,255,.62)}
+  .title{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;text-align:center;
     color:#fff;font-weight:800;font-size:44px;letter-spacing:-.015em;
     text-shadow:0 2px 24px rgba(0,0,0,.75)}
 </style>
 </head>
 <body>
-  <div class="strip" id="strip"><div class="title" id="title">Section</div></div>
+  <div class="strip" id="strip">
+    <div class="grain"></div><div class="veil"></div>
+    <div class="idx" id="idx">01</div>
+    <div class="title" id="title">Section</div>
+  </div>
   <script>
-    var P = 'file:///Users/admin/Projects/kynth/brand-studio/plates/';
+    // ⛔ Section titles live HERE, not in the PNG and not in README.md's alt text. The alt
+    // text in README.md must read back exactly what MAP paints — change one, change both,
+    // then re-run assets/render.mjs.
     var MAP = {
-      building:   {t:"What I'm building", img:'03-redtile-plate.png', p:"50% 45%"},
-      work:       {t:"Selected work",     img:'AI_Bg_089.png', p:"50% 42%"},
-      recognition:{t:"Recognition",       img:'AI_Bg_078.png', p:"50% 60%"},
-      stack:      {t:"Stack",             img:'AI_Bg_084.png', p:"50% 58%"}
+      install:    {n:"01", t:"Install",    p:"0% 50%"},
+      studio:     {n:"02", t:"The studio", p:"50% 50%"},
+      background: {n:"03", t:"Background", p:"100% 50%"}
     };
-    var key = location.hash.replace('#','') || 'building';
+    var q = new URLSearchParams(location.search);
+    var key = q.get('key') || location.hash.replace('#','') || 'install';
     var cfg = MAP[key];
-    document.getElementById('title').textContent = cfg.t;
-    var s = document.getElementById('strip');
-    s.style.backgroundImage = "url('" + P + cfg.img + "')";
-    s.style.backgroundPosition = cfg.p;
+    if (!cfg) { document.title = 'UNKNOWN-KEY'; }
+    else {
+      document.getElementById('idx').textContent = cfg.n;
+      document.getElementById('title').textContent = cfg.t;
+      document.getElementById('strip').style.backgroundPosition = cfg.p;
+    }
   </script>
 </body>
 </html>

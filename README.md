@@ -1,63 +1,89 @@
 <div align="center">
 
-<img src="./assets/banner.png" alt="Isaiah Kim — Founder, Kynth Studios · Staff Engineer · 0-to-1 Product Builder · NYC" width="100%">
+<img src="./assets/banner.png" alt="@kyisaiah47 — Founder &amp; Staff Engineer · 0-to-1 Product Builder · NYC · Kynth Studios · AI-Native Products, Zero to One" width="100%">
 
-### Founder & staff engineer — I use AI leverage to do what normally takes a team.
+### Founder &amp; staff engineer. Kynth Studios builds AI-native products from zero to one.
 
-<br>
+Six pieces of it are installable. Every command below is one line, and the first one needs no key.
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org) [![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org) [![React 19](https://img.shields.io/badge/React_19-149ECA?style=for-the-badge&logo=react&logoColor=white)](https://react.dev) [![Tailwind v4](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com) [![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)](https://turbo.build) [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com) [![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com) [![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.com) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![kynth-mcp on npm](https://img.shields.io/npm/dw/kynth-mcp?label=kynth-mcp&labelColor=241d47&color=b8392c)](https://www.npmjs.com/package/kynth-mcp)
+[![@kynth/api-mcp on npm](https://img.shields.io/npm/dw/%40kynth%2Fapi-mcp?label=%40kynth%2Fapi-mcp&labelColor=241d47&color=7b3560)](https://www.npmjs.com/package/@kynth/api-mcp)
+[![n8n-nodes-kynth on npm](https://img.shields.io/npm/dw/n8n-nodes-kynth?label=n8n-nodes-kynth&labelColor=241d47&color=3b2f6b)](https://www.npmjs.com/package/n8n-nodes-kynth)
 
 </div>
 
-<img src="./assets/strip-building.png" alt="What I'm building" width="100%">
+<img src="./assets/strip-install.png" alt="01 — Install" width="100%">
 
-**[Kynth Studios](https://kynth.studio)** — a one-person AI product studio. I built the platform that makes shipping production software cheap: a shared design system, a multi-tenant production spine, and an automated demo pipeline that take an AI product from design → engineering → infra → launch, solo.
+### [kynth-mcp](https://github.com/kyisaiah47/kynth-mcp) — eleven lookups, no key, no signup
 
-- **9 marketed wedge apps** that get small businesses paid — invoicing, chargeback recovery, payment recovery, legal billing, AI reception, no-shows, CRM cleanup, win-back — all running on **one multi-tenant spine** (72 tenants live on a single wildcard, 9 marketed).
-- **[Kynth Core](https://api.kynth.studio)** — the same engine as a developer platform: **39 pay-per-call API endpoints** with TypeScript / Python SDKs, an MCP server, and n8n / Zapier / CrewAI connectors.
-- A self-built content pipeline (**Playwright + Remotion + ElevenLabs**) that auto-produces narrated product demos — **31 published** so far.
+Live public data for the questions a training cutoff gets wrong: what a model costs today and which one your coding tool actually routes to, whether a dependency is still shipping, what a stack bills at a given user count, which agent skills and shadcn registries already exist, ADA Title II reports, nonprofit good standing.
 
-**FetchDue** — the collections agent for agencies. An AI agent that chases overdue invoices end-to-end: it sends the chase from the agency's own mailbox, reads the client's reply, negotiates a payment plan within the agency's rules, captures the commitment, and takes the payment. A standalone vertical product forked from the Kynth invoicing spine.
+```sh
+claude mcp add kynth -- npx -y kynth-mcp
+```
 
-> The studio is early — I'm selling the leverage I've built, not a user count. The catalog is the proof that one engineer can ship at studio scale.
+In the official MCP registry as `studio.kynth/kynth-mcp`, and listed on [Glama](https://glama.ai/mcp/servers/fhf0eohm9v), [LobeHub](https://lobehub.com/mcp/kyisaiah47-kynth-mcp) and [PulseMCP](https://www.pulsemcp.com/servers?q=kynth).
 
-<img src="./assets/strip-work.png" alt="Selected work" width="100%">
+### Kynth Core — the engine every Kynth Studios product runs on
 
-| Project | What it is |
-| --- | --- |
-| **[kynth.studio](https://kynth.studio)** | The studio — AI products that get you paid, on shared production infrastructure. |
-| **[Kynth Core](https://api.kynth.studio)** | Developer platform — 39-endpoint pay-per-call API + SDKs, MCP, and workflow connectors. |
-| **FetchDue** | Agentic accounts-receivable for agencies — the collections agent that negotiates and gets you paid. |
-| **[BTCUSD](https://github.com/kyisaiah47/btcusd-stablecoin)** | Bitcoin-backed stablecoin with automatic Vesu yield routing — Cairo contracts, liquidation engine, keeper bots, RN app. |
+39 pay-per-call endpoints on one key and one credit wallet — documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. 500 free credits a month, no card, and a failed call never costs a credit. Playground, docs and public per-engine benchmarks at **[api.kynth.studio](https://api.kynth.studio)**.
 
-<img src="./assets/strip-recognition.png" alt="Recognition" width="100%">
+```sh
+# Claude Code — the MCP server
+claude mcp add kynth-core -e KYNTH_API_KEY=ksk_live_… -- npx -y @kynth/api-mcp
 
-- 🥇 **1st Place — Starknet Re{Solve} Hackathon** · Bitcoin Unleashed Track (Xverse Prize Pool), Oct 2025 — for [BTCUSD](https://github.com/kyisaiah47/btcusd-stablecoin).
-- 🎖 **HackFS Finalist, ETHGlobal** — Split Protocol, a cross-token payment splitter on Uniswap.
-- 📐 **OGC 2026 — LG CNS Optimization Grand Challenge** · Tier 3 of 19 (~top 15%), solo US entry against 200+ teams. Parallel SA-LNS solver beats the baseline on 19 of 20 instances, up to 349× improvement.
+# Claude Code — the plugin: same server, plus three skills that teach Claude when to reach for it
+claude plugin marketplace add kyisaiah47/kynth-claude-plugin
+claude plugin install kynth-core@kynth
 
-<img src="./assets/strip-stack.png" alt="Stack" width="100%">
+# Gemini CLI
+gemini extensions install https://github.com/kyisaiah47/kynth-gemini-extension
+```
 
-`TypeScript` · `Next.js 16 (App Router)` · `React 19` · `Tailwind v4` · `Turborepo + pnpm` · `Supabase (Postgres RLS)` · `Stripe` · `Claude + Gemini` · `PostHog` · `Vercel`
+For **n8n**, install the community node `n8n-nodes-kynth` — every endpoint is an operation, and the node is flagged `usableAsTool`, so n8n AI Agents can call any of them.
+
+In the official MCP registry as `studio.kynth/core`, and listed on [Smithery](https://smithery.ai/server/kyisaiah47/kynth-core) and [Glama](https://glama.ai/mcp/servers/sqfwx4paqc).
+
+### [tearline](https://github.com/kyisaiah47/tearline) — wrap any HTML in one tag and it prints as a thermal receipt
+
+Then `await el.download('receipt.png')` and your users have something they can post. Zero dependencies, no build step, MIT. [Live playground →](https://tearline.kynth.studio)
+
+```html
+<script type="module" src="https://tearline.kynth.studio/tearline.js"></script>
+<tear-line barcode="047320260726"><h1>Meridian</h1><hr><p>Cortado · 4.25</p></tear-line>
+```
+
+<img src="./assets/strip-studio.png" alt="02 — The studio" width="100%">
+
+**[Kynth Studios](https://kynth.studio)** — an independent studio designing, building and shipping AI-native products end to end. Compliance tooling, developer platforms, consumer software — every one taken from a blank repo to a live product in-house.
+
+- **32 products live**, each on its own `kynth.studio` subdomain.
+- Front-paged right now: **[Front Wire](https://frontwire.kynth.studio)** (breaking-news wire and paid archive) · **[Tearline](https://tearline.kynth.studio)** (consumer web component) · **[BenchFile](https://benchfile.kynth.studio)** (NYC Local Law 84) · **[PartsProof](https://partsproof.kynth.studio)** (EU Cyber Resilience Act).
+- The distribution above is the same work: one engine, wearing whatever the client speaks.
+- **[doc-extract-bench](https://github.com/kyisaiah47/doc-extract-bench)** — the extraction benchmark, run in the open against Textract, Document AI, Veryfi and LlamaParse. Pinned datasets, pre-registered subsets, committed raw responses, keyless re-scoring.
+
+<img src="./assets/strip-background.png" alt="03 — Background" width="100%">
+
+`TypeScript` · `Next.js 16 (App Router)` · `React 19` · `Tailwind v4` · `Turborepo + pnpm` · `Supabase (Postgres RLS)` · `Stripe` · `Claude + Gemini` · `MCP` · `PostHog` · `Vercel`
 
 <details>
-<summary>The fuller toolbox</summary>
+<summary>Recognition, the fuller toolbox, and eight years before the studio</summary>
 
 <br>
+
+- 🥇 **1st Place — Starknet Re{Solve} Hackathon** · Bitcoin Unleashed Track (Xverse Prize Pool), Oct 2025 — for [BTCUSD](https://github.com/kyisaiah47/btcusd-stablecoin), a Bitcoin-backed stablecoin with automatic Vesu yield routing: Cairo contracts, liquidation engine, keeper bots, RN app.
+- 🎖 **HackFS Finalist, ETHGlobal** — Split Protocol, a cross-token payment splitter on Uniswap.
+- 📐 **OGC 2026 — LG CNS Optimization Grand Challenge** · Tier 3 of 19 (~top 15%), solo US entry against 200+ teams. A parallel SA-LNS solver that beats the baseline on 19 of 20 instances, up to 349× improvement.
+
+**The fuller toolbox**
 
 - **AI & agents** — Claude Code, Claude API, Gemini, MCP, multi-agent orchestration
 - **Frontend** — Next.js, React, React Native, Angular, Vue.js, TypeScript, Tailwind, shadcn/ui, Framer Motion
 - **Product infra** — Stripe, multi-tenant Supabase + Google OAuth (Postgres RLS), AWS Aurora DSQL, Resend, Vercel, signed webhooks
 - **Backend** — Node.js, Python, Java Spring Boot, GraphQL, OpenAPI, WebSockets
-- **DevOps & tooling** — Turborepo, Azure DevOps, GitHub Actions, Playwright, Remotion, PostHog, GoJS, Figma
+- **DevOps & tooling** — Turborepo, Azure DevOps, GitHub Actions, Playwright, PostHog, GoJS, Figma
 
-</details>
-
-<details>
-<summary>Before the studio — 8 years shipping</summary>
-
-<br>
+**Before the studio — eight years shipping**
 
 - **SS&C Technologies** — Senior Software Engineer, Private Markets. Designed an AI-assisted code-generation system that cut an *estimated* 12+ months of work to 2–3 months across 2,000+ clients and 17+ report types. Sole web engineer for the division: 6 enterprise apps, plus a 109-component Angular DevOps platform used daily by 20–30 engineers.
 - **Capital Technology Group** — full-stack on a USCIS government contract (uscis.gov), serving millions of users, with WCAG accessibility.
@@ -71,7 +97,7 @@
 
 <div align="center">
 
-**[kynth.studio](https://kynth.studio)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[YouTube](https://youtube.com/@kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)**
+**[kynth.studio](https://kynth.studio)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)**
 
 <sub>New York City · he/him</sub>
 

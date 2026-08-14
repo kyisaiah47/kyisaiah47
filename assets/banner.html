@@ -13,8 +13,6 @@
     font-family:"Bricolage Grotesque",system-ui,sans-serif;
     background-size:cover;background-position:center;
   }
-  .banner.dark{ background-image:url('file:///Users/admin/Projects/kynth/brand-studio/plates/03-redtile-plate.png'); }
-  .banner.aurora{ background-image:url('file:///Users/admin/Projects/kynth/brand-studio/plates/01-kynth-plate.png'); }
 
   /* --- 3-col x 2-row rule frame --- */
   .frame{position:absolute;top:21%;bottom:21%;left:5.5%;right:5.5%;
@@ -40,7 +38,7 @@
 </style>
 </head>
 <body>
-  <div class="banner dark" id="banner">
+  <div class="banner" id="banner">
     <div class="frame">
       <div class="vline a"></div><div class="vline b"></div>
       <div class="hline m"></div>
@@ -48,14 +46,28 @@
       <div class="tick" style="left:66.666%;top:50%"></div>
     </div>
 
-    <div class="lab top">Staff Engineer &nbsp;·&nbsp; 0-to-1 Product Builder &nbsp;·&nbsp; NYC</div>
+    <div class="lab top">Founder &amp; Staff Engineer &nbsp;·&nbsp; 0-to-1 Product Builder &nbsp;·&nbsp; NYC</div>
     <div class="word">@kyisaiah47</div>
-    <div class="lab bl">Founder, Kynth Studios</div>
-    <div class="lab br">AI Leverage at Studio Scale</div>
+    <div class="lab bl">Kynth Studios</div>
+    <div class="lab br">AI-Native Products, Zero to One</div>
   </div>
   <script>
-    var h = location.hash.replace('#','');
-    if (h) document.getElementById('banner').className = 'banner ' + h;
+    // ⛔ The plate directory is passed in by render.mjs as ?plates=<file:// dir>.
+    // It used to be hardcoded to ~/Projects/kynth/brand-studio/plates/, which was deleted
+    // on 2026-07-22 (the set moved to kynth-ops/social/tools/bg/slate/). The generator then
+    // rendered on a black ground for weeks and nothing said so, because a missing
+    // background-image is not an error. render.mjs now HEADs the plate first and exits
+    // non-zero if it is not there. Never hardcode the directory back in.
+    var q = new URLSearchParams(location.search);
+    var plates = q.get('plates');
+    var plate  = q.get('plate') || 'AI_Bg_044.png';
+    var pos    = q.get('pos')   || '50% 50%';
+    var b = document.getElementById('banner');
+    if (!plates) { document.title = 'MISSING-PLATES'; }
+    else {
+      b.style.backgroundImage = "url('" + plates.replace(/\/?$/, '/') + plate + "')";
+      b.style.backgroundPosition = pos;
+    }
   </script>
 </body>
 </html>
