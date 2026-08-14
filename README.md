@@ -24,9 +24,9 @@ claude mcp add kynth -- npx -y kynth-mcp
 
 In the official MCP registry as `studio.kynth/kynth-mcp`, and listed on [Glama](https://glama.ai/mcp/servers/fhf0eohm9v), [LobeHub](https://lobehub.com/mcp/kyisaiah47-kynth-mcp) and [PulseMCP](https://www.pulsemcp.com/servers?q=kynth).
 
-### Kynth Core — the engine every Kynth Studios product runs on
+### [ParseRail](https://parserail.kynth.studio) — the engine every Kynth Studios product runs on
 
-39 pay-per-call endpoints on one key and one credit wallet — documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. 500 free credits a month, no card, and a failed call never costs a credit. Playground, docs and public per-engine benchmarks at **[api.kynth.studio](https://api.kynth.studio)**.
+39 pay-per-call endpoints on one key and one credit wallet — documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. 500 free credits a month, no card, and a failed call never costs a credit. Playground, docs, public per-engine benchmarks and your key at **[api.kynth.studio](https://api.kynth.studio)**, which is also the API host.
 
 ```sh
 # Claude Code — the MCP server
@@ -42,7 +42,7 @@ gemini extensions install https://github.com/kyisaiah47/kynth-gemini-extension
 
 For **n8n**, install the community node `n8n-nodes-kynth` — every endpoint is an operation, and the node is flagged `usableAsTool`, so n8n AI Agents can call any of them.
 
-In the official MCP registry as `studio.kynth/core`, and listed on [Smithery](https://smithery.ai/server/kyisaiah47/kynth-core) and [Glama](https://glama.ai/mcp/servers/sqfwx4paqc).
+In the official MCP registry as `studio.kynth/core`, and listed on [Smithery](https://smithery.ai/server/kyisaiah47/kynth-core) and [Glama](https://glama.ai/mcp/servers/sqfwx4paqc). The engine is named ParseRail; `kynth-core` and `@kynth/api-mcp` are its package and server ids and do not change, so anything you have already installed keeps working.
 
 ### [tearline](https://github.com/kyisaiah47/tearline) — wrap any HTML in one tag and it prints as a thermal receipt
 
