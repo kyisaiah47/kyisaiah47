@@ -57,7 +57,7 @@ Then `await el.download('receipt.png')` and your users have something they can p
 
 **[Kynth Studios](https://kynth.studio)** — an independent studio designing, building and shipping AI-native products end to end. Compliance tooling, developer platforms, consumer software — every one taken from a blank repo to a live product in-house.
 
-- **32 products live**, each on its own `kynth.studio` subdomain.
+- Each product ships on its own `kynth.studio` subdomain, built on one shared core and capabilities layer.
 - Front-paged right now: **[Front Wire](https://frontwire.kynth.studio)** (breaking-news wire and paid archive) · **[Tearline](https://tearline.kynth.studio)** (consumer web component) · **[BenchFile](https://benchfile.kynth.studio)** (NYC Local Law 84) · **[PartsProof](https://partsproof.kynth.studio)** (EU Cyber Resilience Act).
 - The distribution above is the same work: one engine, wearing whatever the client speaks.
 - **[doc-extract-bench](https://github.com/kyisaiah47/doc-extract-bench)** — the extraction benchmark, run in the open against Textract, Document AI, Veryfi and LlamaParse. Pinned datasets, pre-registered subsets, committed raw responses, keyless re-scoring.
