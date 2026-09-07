@@ -97,7 +97,7 @@ Then `await el.download('receipt.png')` and your users have something they can p
 
 <div align="center">
 
-**[kynth.studio](https://kynth.studio)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)**
+**[kynth.studio](https://kynth.studio)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)** · **[Buy me a coffee](https://buymeacoffee.com/kyisaiah47)**
 
 <sub>New York City · he/him</sub>
 
