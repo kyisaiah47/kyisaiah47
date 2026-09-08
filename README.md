@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/banner.png" alt="@kyisaiah47 — Founder &amp; Staff Engineer · 0-to-1 Product Builder · NYC · Kynth Studios · AI-Native Products, Zero to One" width="100%">
+<img src="./assets/banner.png" alt="@kyisaiah47 — Founder &amp; Staff Engineer · 0-to-1 Product Builder · NYC · Compound Labs · Product R&amp;D" width="100%">
 
-### Founder &amp; staff engineer. Kynth Studios builds AI-native products from zero to one.
+### Founder &amp; staff engineer. Compound Labs is my independent product R&amp;D lab.
 
 Six pieces of it are installable. Every command below is one line, and the first one needs no key.
 
@@ -24,9 +24,9 @@ claude mcp add kynth -- npx -y kynth-mcp
 
 In the official MCP registry as `studio.kynth/kynth-mcp`, and listed on [Glama](https://glama.ai/mcp/servers/fhf0eohm9v), [LobeHub](https://lobehub.com/mcp/kyisaiah47-kynth-mcp) and [PulseMCP](https://www.pulsemcp.com/servers?q=kynth).
 
-### [ParseRail](https://parserail.kynth.studio) — the engine every Kynth Studios product runs on
+### [ParseRail](https://parserail.thecompound.tech) — the engine the Compound Labs product catalog runs on
 
-39 pay-per-call endpoints on one key and one credit wallet — documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. 500 free credits a month, no card, and a failed call never costs a credit. Playground, docs and public per-engine benchmarks at **[api.kynth.studio](https://api.kynth.studio)**.
+39 pay-per-call endpoints on one key and one credit wallet — documents to schema-valid JSON, field extraction, PII redaction, contract review, triage, research, moderation, agent memory. 500 free credits a month, no card, and a failed call never costs a credit. Playground, docs and public per-engine benchmarks at **[parserail.thecompound.tech](https://parserail.thecompound.tech)**.
 
 ```sh
 # Claude Code — the MCP server
@@ -46,20 +46,20 @@ In the official MCP registry as `studio.kynth/core`, and listed on [Smithery](ht
 
 ### [tearline](https://github.com/kyisaiah47/tearline) — wrap any HTML in one tag and it prints as a thermal receipt
 
-Then `await el.download('receipt.png')` and your users have something they can post. Zero dependencies, no build step, MIT. [Live playground →](https://tearline.kynth.studio)
+Then `await el.download('receipt.png')` and your users have something they can post. Zero dependencies, no build step, MIT. [Live playground →](https://tearline.thecompound.tech)
 
 ```html
-<script type="module" src="https://tearline.kynth.studio/tearline.js"></script>
+<script type="module" src="https://tearline.thecompound.tech/tearline.js"></script>
 <tear-line barcode="047320260726"><h1>Meridian</h1><hr><p>Cortado · 4.25</p></tear-line>
 ```
 
 <img src="./assets/strip-studio.png" alt="02 — The studio" width="100%">
 
-**[Kynth Studios](https://kynth.studio)** — an independent studio designing, building and shipping AI-native products end to end. Compliance tooling, developer platforms, consumer software — every one taken from a blank repo to a live product in-house.
+**[Compound Labs](https://thecompound.tech)** — my independent product R&amp;D lab for designing, building and operating software experiments. Compliance tooling, developer platforms and consumer software are taken from a blank repo to a live product in-house.
 
-- Each product ships on its own `kynth.studio` subdomain, built on one shared core and capabilities layer.
-- Front-paged right now: **[Front Wire](https://frontwire.kynth.studio)** (breaking-news wire and paid archive) · **[Tearline](https://tearline.kynth.studio)** (consumer web component) · **[BenchFile](https://benchfile.kynth.studio)** (NYC Local Law 84) · **[PartsProof](https://partsproof.kynth.studio)** (EU Cyber Resilience Act).
-- The distribution above is the same work: one engine, wearing whatever the client speaks.
+- Each product ships on its own `thecompound.tech` subdomain, built on one shared core and capabilities layer.
+- Front-paged right now: **[Front Wire](https://frontwire.thecompound.tech)** (breaking-news wire and paid archive) · **[Tearline](https://tearline.thecompound.tech)** (consumer web component) · **[BenchFile](https://benchfile.thecompound.tech)** (NYC Local Law 84) · **[PartsProof](https://partsproof.thecompound.tech)** (EU Cyber Resilience Act).
+- The catalog shares one engine while each experiment keeps its own product identity.
 - **[doc-extract-bench](https://github.com/kyisaiah47/doc-extract-bench)** — the extraction benchmark, run in the open against Textract, Document AI, Veryfi and LlamaParse. Pinned datasets, pre-registered subsets, committed raw responses, keyless re-scoring.
 
 <img src="./assets/strip-background.png" alt="03 — Background" width="100%">
@@ -67,7 +67,7 @@ Then `await el.download('receipt.png')` and your users have something they can p
 `TypeScript` · `Next.js 16 (App Router)` · `React 19` · `Tailwind v4` · `Turborepo + pnpm` · `Supabase (Postgres RLS)` · `Stripe` · `Claude + Gemini` · `MCP` · `PostHog` · `Vercel`
 
 <details>
-<summary>Recognition, the fuller toolbox, and eight years before the studio</summary>
+<summary>Recognition, the fuller toolbox, and eight years before the lab</summary>
 
 <br>
 
@@ -83,7 +83,7 @@ Then `await el.download('receipt.png')` and your users have something they can p
 - **Backend** — Node.js, Python, Java Spring Boot, GraphQL, OpenAPI, WebSockets
 - **DevOps & tooling** — Turborepo, Azure DevOps, GitHub Actions, Playwright, PostHog, GoJS, Figma
 
-**Before the studio — eight years shipping**
+**Before the lab — eight years shipping**
 
 - **SS&C Technologies** — Senior Software Engineer, Private Markets. Designed an AI-assisted code-generation system that cut an *estimated* 12+ months of work to 2–3 months across 2,000+ clients and 17+ report types. Sole web engineer for the division: 6 enterprise apps, plus a 109-component Angular DevOps platform used daily by 20–30 engineers.
 - **Capital Technology Group** — full-stack on a USCIS government contract (uscis.gov), serving millions of users, with WCAG accessibility.
@@ -97,7 +97,7 @@ Then `await el.download('receipt.png')` and your users have something they can p
 
 <div align="center">
 
-**[kynth.studio](https://kynth.studio)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)** · **[Buy me a coffee](https://buymeacoffee.com/kyisaiah47)**
+**[thecompound.tech](https://thecompound.tech)** · **[LinkedIn](https://linkedin.com/in/kyisaiah47)** · **[kyisaiah47@gmail.com](mailto:kyisaiah47@gmail.com)** · **[Buy me a coffee](https://buymeacoffee.com/kyisaiah47)**
 
 <sub>New York City · he/him</sub>
 
