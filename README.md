@@ -1,6 +1,14 @@
+<img src="./assets/open-to-work-landscape-2026-09-11.png" alt="Open to work — Senior or Staff Full-Stack AI Product Engineer; also open to Founder-in-Residence, Venture Builder, and Product R&D roles" width="100%">
+
 <div align="center">
 
-<img src="./assets/banner.png" alt="@kyisaiah47 — Founder and product builder at Compound Labs" width="100%">
+**Full-time · NYC or remote · US citizen · no sponsorship required. [Send me the role →](mailto:kyisaiah47@gmail.com)**
+
+</div>
+
+<div align="center">
+
+<img src="./assets/profile-hero-compound-2026-09-11.png" alt="Compound Labs — @kyisaiah47, independent product R&D lab" width="100%">
 
 ### Founder &amp; product builder at Compound Labs. Senior full-stack engineer focused on 0→1 AI products.
 
@@ -8,12 +16,11 @@
 
 </div>
 
-> [!IMPORTANT]
-> **Open to work — Senior / Staff Full-Stack AI Product Engineer.** Also open to Founder-in-Residence, Venture Builder, and Product R&amp;D roles. Full-time · NYC or remote · US citizen · no sponsorship required. **[Send me the role →](mailto:kyisaiah47@gmail.com)**
-
 I have 8+ years as a full-stack engineer, including 3+ at senior level. I do my best work on ambiguous 0→1 builds where I can own the path from research and product strategy through UX, engineering, launch, and operation.
 
-<img src="./assets/strip-studio.png" alt="01 — Compound Labs" width="100%">
+<img src="./assets/strip-compound-labs-2026-09-11.png" alt="01 — Compound Labs" width="100%">
+
+### Compound Labs
 
 **[Compound Labs](https://thecompound.tech)** is my independent product R&amp;D lab. I research opportunities and underserved problems, turn the strongest ones into working software, launch them, and operate the systems behind them.
 
@@ -24,7 +31,7 @@ The products are deliberately not confined to one category. The range—applied 
 - **Shared operating infrastructure** — reusable multi-tenant foundations, payments, scheduled workflows, browser automation, integrations, publishing, and one internal console for the catalog.
 - **Distribution alongside product** — SEO, newsletters, automated content systems, social publishing, and product-level analytics.
 
-<img src="./assets/strip-install.png" alt="02 — AI and agent systems" width="100%">
+<img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — AI and agent systems" width="100%">
 
 ### Selected AI and agent systems
 
@@ -37,9 +44,11 @@ The products are deliberately not confined to one category. The range—applied 
 | **[RuleStack](https://rulestack.thecompound.tech)** | AGENTS.md gallery and comparison engine covering eight agent-instruction formats, real repository adoption, stack evidence, and file-level diffs. |
 | **[Toolproof](https://toolproof.thecompound.tech)** | Independent measurement layer for AI agent tooling: execution-tested indexes, a published methodology, and open data. |
 
-<img src="./assets/strip-background.png" alt="03 — Background" width="100%">
+<img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
-### SS&amp;C Technologies — Senior Software Engineer, Private Markets
+### Engineering background
+
+#### SS&amp;C Technologies — Senior Software Engineer, Private Markets
 
 I was the division’s only web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.
 
