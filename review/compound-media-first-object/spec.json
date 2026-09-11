@@ -1,0 +1,20 @@
+{
+  "usage": "review",
+  "reviewOnly": true,
+  "reviewLabel": "github-profile-first-object",
+  "masthead": "Compound Labs",
+  "kicker": "PRODUCT R&D",
+  "date": "11 Sep 2026",
+  "provenance": "@kyisaiah47",
+  "object": "/Users/admin/Projects/kyisaiah47/review/compound-media-first-object/workstation-v1.png",
+  "mark": "/Users/admin/Projects/compound-ops/brand/compound-labs/marks/svg/notch-cube-light.svg",
+  "platformColor": "#FFFFFF",
+  "headline": "Independent product R&D lab",
+  "facts": [
+    "Products shipped and lessons from the work."
+  ],
+  "handle": "github.com/kyisaiah47",
+  "sig": "headline1",
+  "sigSize": "head",
+  "accent": "bullet"
+}
