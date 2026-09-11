@@ -1,0 +1,20 @@
+{
+  "usage": "review",
+  "reviewOnly": true,
+  "reviewLabel": "github-open-to-work-landscape",
+  "masthead": "Compound Labs",
+  "kicker": "OPEN TO WORK",
+  "date": "11 Sep 2026",
+  "provenance": "NYC / remote",
+  "object": "/Users/admin/Projects/kyisaiah47/review/open-to-work-landscape/person-at-laptop-v1.png",
+  "mark": "/Users/admin/Projects/compound-ops/brand/compound-labs/marks/svg/notch-cube-light.svg",
+  "headline": "Senior / Staff Full-Stack\nAI Product Engineer",
+  "facts": [
+    "Full-time product engineering with end-to-end ownership.",
+    "Founder-in-Residence · Venture Builder · Product R&D"
+  ],
+  "handle": "@kyisaiah47",
+  "sig": "headline1",
+  "sigSize": "head",
+  "accent": "none"
+}
