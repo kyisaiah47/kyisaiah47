@@ -1,0 +1,38 @@
+[
+  {
+    "id": "install",
+    "usage": "review",
+    "reviewOnly": true,
+    "reviewLabel": "github-readme-thin-banner",
+    "provenance": "@kyisaiah47",
+    "object": "/Users/admin/Projects/kyisaiah47/review/thin-banners/install-v1.png",
+    "kicker": "01",
+    "headline": "Install",
+    "facts": ["Developer tools that can be installed and used directly."],
+    "handle": "@kyisaiah47"
+  },
+  {
+    "id": "studio",
+    "usage": "review",
+    "reviewOnly": true,
+    "reviewLabel": "github-readme-thin-banner",
+    "provenance": "@kyisaiah47",
+    "object": "/Users/admin/Projects/kyisaiah47/review/thin-banners/studio-v1.png",
+    "kicker": "02",
+    "headline": "The studio",
+    "facts": ["An independent product R&D lab building multiple shipped products."],
+    "handle": "@kyisaiah47"
+  },
+  {
+    "id": "background",
+    "usage": "review",
+    "reviewOnly": true,
+    "reviewLabel": "github-readme-thin-banner",
+    "provenance": "@kyisaiah47",
+    "object": "/Users/admin/Projects/kyisaiah47/review/thin-banners/background-v1.png",
+    "kicker": "03",
+    "headline": "Background",
+    "facts": ["Eight years of engineering systems and shipping products."],
+    "handle": "@kyisaiah47"
+  }
+]
