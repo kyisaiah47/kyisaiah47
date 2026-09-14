@@ -5,8 +5,8 @@
 // image does not paint. Change banner.html / strip.html, re-run this, commit both.
 //
 // It fails closed on the failure that actually happened: banner.html and strip.html used to
-// hardcode file:///Users/admin/Projects/kynth/brand-studio/plates/, which was deleted on
-// 2026-07-22 when the plate set moved to kynth-ops/social/tools/bg/slate/. A missing
+// hardcode file:///Users/admin/CompoundLabs/compound/brand-studio/plates/, which was deleted on
+// 2026-07-22 when the plate set moved to compound-ops/social/tools/bg/slate/. A missing
 // background-image throws nothing, so the generators would have quietly rendered black
 // bands. This script stats every plate before it opens a browser and exits 1 if one is gone.
 //
@@ -23,17 +23,17 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-// puppeteer-core lives in kynth-ops (pnpm, so the path carries a version — resolve it, never
+// puppeteer-core lives in compound-ops (pnpm, so the path carries a version — resolve it, never
 // hardcode it). ⛔ Do NOT swap this for playwright: playwright >= 1.53 sends
 // Browser.setDownloadBehavior on connectOverCDP, which a real Chrome rejects and the socket
-// drops. Same reason kynth-ops/portals/lib/attach.mjs is puppeteer-core.
-const OPS = process.env.KYNTH_OPS || '/Users/admin/Projects/kynth-ops';
+// drops. Same reason compound-ops/portals/lib/attach.mjs is puppeteer-core.
+const OPS = process.env.COMPOUND_OPS || '/Users/admin/CompoundLabs/compound-ops';
 const puppeteer = createRequire(import.meta.url)(
   createRequire(`${OPS}/package.json`).resolve('puppeteer-core'),
 );
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const PLATES = process.env.PLATES || '/Users/admin/Projects/kynth-ops/social/tools/bg/slate';
+const PLATES = process.env.PLATES || '/Users/admin/CompoundLabs/compound-ops/social/tools/bg/slate';
 const CHROME = process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const SCALE = 2;
 
