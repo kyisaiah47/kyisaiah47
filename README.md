@@ -33,16 +33,37 @@ The products are deliberately not confined to one category. The range—applied 
 
 <img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — AI and agent systems" width="100%">
 
-### Selected AI and agent systems
+### Agentic products
+
+Each of these runs a pass on its own, reads the source documents, drafts the action, and waits for a person to approve it before anything leaves the building.
+
+| Product | What the agent does |
+| --- | --- |
+| **[Unemploy](https://unemploy.co)** | Unemployment claims desk for employers with no claims specialist. Agents answer every claim inside the state's window, and every window is computed by a rules table from the date on the notice. |
+| **[FetchDue](https://fetchdue.thecompound.tech)** | Collections agent for agencies. It works the overdue list out of your own mailbox, reads what each client replies, drafts the answer in your voice, and follows up until the money lands. |
+| **[TriageDesk](https://triagedesk.thecompound.tech)** | Overnight triage agent for a shared inbox. It reads support@ overnight, drafts every reply, and holds an approved send for 120 seconds before it goes. |
+| **[CoverCheck](https://covercheck.thecompound.tech)** | Reads each vendor's certificate of insurance, checks the limits and endorsements against your requirements, flags what is short or expiring, and chases the agent for the renewal. |
+| **[ClauseWatch](https://clausewatch.thecompound.tech)** | Re-reads every uploaded contract each night, finds the term end and the notice period, and emails you before an auto-renewal locks in. It never states a date it could not find. |
+| **[MatchRail](https://matchrail.thecompound.tech)** | Three-way match for the month-end close. It reconciles the purchase order, the receipt and the bill against your QuickBooks or Xero ledger overnight and queues only the ones that disagree. |
+| **[CardChase](https://cardchase.thecompound.tech)** | Retries failed subscription charges on the schedule you set and writes the customer in your voice. It stops on any card the network has already refused. |
+| **[StarReply](https://starreply.thecompound.tech)** | Review-reply agent for multi-location businesses. It reads the night's reviews, drafts each reply, and holds an approved one 30 seconds before it posts. |
+| **[LeadGrade](https://leadgrade.thecompound.tech)** | Inbound lead agent for founder-led sales. It scores every lead that arrived overnight and ranks the queue highest first. |
+| **[ListRun](https://listrun.thecompound.tech)** | Fills the submission form on every free startup, AI and SaaS directory a product qualifies for, and returns one row per directory, including the ones nothing was attempted on and why. |
+| **[BreachProbe](https://breachprobe.thecompound.tech)** | Signs up two throwaway users against a live app and checks whether row-level security really isolates them. |
+| **[PolicyDrift](https://policydrift.thecompound.tech)** | Loads a page in a real browser, records every third party it contacts, reads the privacy policy the page links to, and reports each one against the other. |
+
+### AI developer tools
 
 | Product | What it does |
 | --- | --- |
 | **[Compound MCP](https://github.com/kyisaiah47/compound-mcp)** | Eleven keyless tools that give agents current model routing and pricing, dependency health, stack costs, agent-skill discovery, registry search, and public compliance data. |
 | **[ParseRail](https://parserail.thecompound.tech)** | Production AI back end with 44 endpoints, four SDKs, MCP, structured outputs, model routing, per-call telemetry, and evaluation gates. |
-| **[AgentWire](https://agentwire.thecompound.tech)** | Searchable index of shipped MCP servers, coding-agent harnesses, and frameworks, built from repository activity and technical signals. |
-| **[SkillWorks](https://skillworks.thecompound.tech)** | Nightly rebuilt directory of Claude Code skills, subagents, plugins, and marketplaces with a reproducible 0–100 quality score. |
-| **[RuleStack](https://rulestack.thecompound.tech)** | AGENTS.md gallery and comparison engine covering eight agent-instruction formats, real repository adoption, stack evidence, and file-level diffs. |
-| **[Toolproof](https://toolproof.thecompound.tech)** | Independent measurement layer for AI agent tooling: execution-tested indexes, a published methodology, and open data. |
+| **[AgentWire](https://agentwire.thecompound.tech)** | Index of shipped MCP servers, coding-agent harnesses and agent frameworks, built from curated lists, Hacker News, star velocity and topic signals, credited to whoever built it. |
+| **[SkillWorks](https://skillworks.thecompound.tech)** | Every Claude Code skill, subagent and plugin, read from the source and scored 0 to 100 on four weighted components, every night. |
+| **[RuleStack](https://rulestack.thecompound.tech)** | Gallery of real AGENTS.md, CLAUDE.md, Cursor, Copilot, Windsurf, GEMINI.md and Cline files, scraped from live repositories every night, classified by stack and scored. Capabilities are asserted; adoption is measured. |
+| **[ToolDrift](https://tooldrift.thecompound.tech)** | Which coding model Cursor, Claude Code and Copilot are running tonight, scored on what developers actually run inside their tools and re-counted every night. |
+| **[StillShipping](https://stillshipping.thecompound.tech)** | Which agent tools have stopped shipping, rescored every night from the GitHub API. |
+| **[Toolproof](https://toolproof.thecompound.tech)** | Independent measurement layer for AI agent tooling: nine execution-tested indexes, one published method, and open data. |
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
