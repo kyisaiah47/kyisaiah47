@@ -64,6 +64,13 @@ Each of these runs a pass on its own, reads the source documents, drafts the act
 | <img src="./assets/icons/tooldrift.svg" width="18" height="18" align="absmiddle">&nbsp;**[ToolDrift](https://tooldrift.thecompound.tech)** | Which coding model Cursor, Claude Code and Copilot are running tonight, scored on what developers actually run inside their tools and re-counted every night. |
 | <img src="./assets/icons/stillshipping.svg" width="18" height="18" align="absmiddle">&nbsp;**[StillShipping](https://stillshipping.thecompound.tech)** | Which agent tools have stopped shipping, rescored every night from the GitHub API. |
 | <img src="./assets/icons/toolproof.svg" width="18" height="18" align="absmiddle">&nbsp;**[Toolproof](https://toolproof.thecompound.tech)** | Independent measurement layer for AI agent tooling: nine execution-tested indexes, one published method, and open data. |
+| **[deferless](https://github.com/kyisaiah47/deferless)** | Fail-closed gates for work an AI agent did on your behalf: a plan it can’t quietly deviate from, findings it can’t defer. |
+| **[leakless](https://github.com/kyisaiah47/leakless)** | GitHub Action: scans a deployed URL with BreachProbe and fails the build on an exposed database or an open write path. |
+| **[stubless](https://github.com/kyisaiah47/stubless)** | GitHub Action: scores a repository’s AGENTS.md/CLAUDE.md against RuleStack and fails the job below a threshold. |
+| **[glanceless](https://github.com/kyisaiah47/glanceless)** | Page-level design rules measured in a real browser: contrast, dead columns, full-column figures, copy noise, failed closed. |
+| **[compound-core-mcp](https://github.com/kyisaiah47/compound-core-mcp)** | MCP server for ParseRail: 41 tools for finished-job AI work, one credit wallet, failed calls never burn credits. |
+| **[compound-gemini-extension](https://github.com/kyisaiah47/compound-gemini-extension)** | Gemini CLI extension for ParseRail: native tools for financial-document extraction, PII redaction and contract review. |
+| **[n8n-nodes-compound](https://github.com/kyisaiah47/n8n-nodes-compound)** | n8n community node for ParseRail: 41 finished-job AI operations in one node, flagged usableAsTool. |
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
