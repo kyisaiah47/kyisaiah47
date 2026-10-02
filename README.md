@@ -35,7 +35,7 @@ The products are deliberately not confined to one category. The range—applied 
 
 ### Agentic products
 
-Each of these runs a pass on its own, reads the source documents, drafts the action, and waits for a person to approve it before anything leaves the building.
+Every agent runs independently, reads its source documents, drafts the action, and waits for a person to approve it before anything leaves the building.
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What the agent does |
 | --- | --- |
