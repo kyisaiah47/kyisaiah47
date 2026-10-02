@@ -56,7 +56,7 @@ Each of these runs a pass on its own, reads the source documents, drafts the act
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does |
 | --- | --- |
-| <img src="./assets/icons/compound-mcp.svg" width="18" height="18" align="absmiddle">&nbsp;**[Compound&nbsp;MCP](https://github.com/kyisaiah47/compound-mcp)** | Eleven keyless tools that give agents current model routing and pricing, dependency health, stack costs, agent-skill discovery, registry search, and public compliance data. |
+| <img src="./assets/icons/compound-mcp.svg" width="18" height="18" align="absmiddle">&nbsp;**[OpenLookup](https://github.com/kyisaiah47/openlookup)** | Eleven keyless tools that give agents current model routing and pricing, dependency health, stack costs, agent-skill discovery, registry search, and public compliance data. |
 | <img src="./assets/icons/parserail.svg" width="18" height="18" align="absmiddle">&nbsp;**[ParseRail](https://parserail.thecompound.tech)** | Production AI back end with 44 endpoints, four SDKs, MCP, structured outputs, model routing, per-call telemetry, and evaluation gates. |
 | <img src="./assets/icons/agentwire.svg" width="18" height="18" align="absmiddle">&nbsp;**[AgentWire](https://agentwire.thecompound.tech)** | Index of shipped MCP servers, coding-agent harnesses and agent frameworks, built from curated lists, Hacker News, star velocity and topic signals, credited to whoever built it. |
 | <img src="./assets/icons/skillworks.svg" width="18" height="18" align="absmiddle">&nbsp;**[SkillWorks](https://skillworks.thecompound.tech)** | Every Claude Code skill, subagent and plugin, read from the source and scored 0 to 100 on four weighted components, every night. |
@@ -68,9 +68,9 @@ Each of these runs a pass on its own, reads the source documents, drafts the act
 | **[leakless](https://github.com/kyisaiah47/leakless)** | GitHub Action: scans a deployed URL with BreachProbe and fails the build on an exposed database or an open write path. |
 | **[stubless](https://github.com/kyisaiah47/stubless)** | GitHub Action: scores a repository’s AGENTS.md/CLAUDE.md against RuleStack and fails the job below a threshold. |
 | **[glanceless](https://github.com/kyisaiah47/glanceless)** | Page-level design rules measured in a real browser: contrast, dead columns, full-column figures, copy noise, failed closed. |
-| **[compound-core-mcp](https://github.com/kyisaiah47/compound-core-mcp)** | MCP server for ParseRail: 41 tools for finished-job AI work, one credit wallet, failed calls never burn credits. |
-| **[compound-gemini-extension](https://github.com/kyisaiah47/compound-gemini-extension)** | Gemini CLI extension for ParseRail: native tools for financial-document extraction, PII redaction and contract review. |
-| **[n8n-nodes-compound](https://github.com/kyisaiah47/n8n-nodes-compound)** | n8n community node for ParseRail: 41 finished-job AI operations in one node, flagged usableAsTool. |
+| **[parserail-mcp](https://github.com/kyisaiah47/parserail-mcp)** | MCP server for ParseRail: 41 tools for finished-job AI work, one credit wallet, failed calls never burn credits. |
+| **[parserail-gemini-extension](https://github.com/kyisaiah47/parserail-gemini-extension)** | Gemini CLI extension for ParseRail: native tools for financial-document extraction, PII redaction and contract review. |
+| **[n8n-nodes-parserail](https://github.com/kyisaiah47/n8n-nodes-parserail)** | n8n community node for ParseRail: 41 finished-job AI operations in one node, flagged usableAsTool. |
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
