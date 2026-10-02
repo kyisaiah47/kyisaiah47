@@ -50,7 +50,7 @@ The products are deliberately not confined to one category. The range—applied 
 
 #### SS&amp;C Technologies — Senior Software Engineer, Private Markets
 
-I was the division’s only web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.
+I was the division’s first web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.
 
 - Architected and delivered the MVP of a 109+ component Angular DevOps platform in three months, retired the legacy application it replaced in five, and reduced per-client pipeline work from roughly 10 minutes to 30 seconds. It became the daily operating surface for 30+ engineers.
 - Designed an AI-assisted code-generation system that compressed an estimated 12+ months of financial-reporting development into 2–3 months for a platform supporting 2,000+ clients and 17+ report types.
