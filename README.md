@@ -71,6 +71,7 @@ Every agent runs independently, reads its source documents, drafts the action, a
 | **[parserail-mcp](https://github.com/kyisaiah47/parserail-mcp)** | The ParseRail MCP server provides 41 tools for finished-job AI work, uses one credit wallet, and never burns credits on failed calls. |
 | **[parserail-gemini-extension](https://github.com/kyisaiah47/parserail-gemini-extension)** | The ParseRail Gemini CLI extension provides native tools for financial-document extraction, PII redaction, and contract review. |
 | **[n8n-nodes-parserail](https://github.com/kyisaiah47/n8n-nodes-parserail)** | The ParseRail n8n community node provides 41 finished-job AI operations in one node and is flagged usableAsTool. |
+| **[shipprobe](https://github.com/kyisaiah47/shipprobe)** | One tool for shipping safely: security, dependency, agent-instruction, rendered-page and plan checks that fail closed and run offline. |
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
