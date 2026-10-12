@@ -24,43 +24,57 @@ I have 8+ years as a full-stack engineer, including 3+ at senior level. I do my 
 
 **[Compound Labs](https://thecompound.tech)** is my independent product R&amp;D lab. I research opportunities and underserved problems, turn the strongest ones into working software, launch them, and operate the systems behind them.
 
-The current catalog is smaller by design. I retired a large group of standalone apps and brought related work together under Compound Labs, ParseRail, and reusable agents. The live work spans developer tools, security, publishing, automation, and consumer software. The [Compound Labs register](https://thecompound.tech) is the current record of what is live and what is still being built.
+Compound Labs now brings developer tools and news sections together under one site, alongside the standalone products I continue to build and operate. The [Compound Labs site](https://thecompound.tech) is the current home for that work.
 
 - **Complete product ownership** — strategy, UX, engineering, authentication, billing, data, automation, analytics, launch, and ongoing operations.
 - **Applied AI as an engineering system** — structured outputs, model routing, per-call cost and latency telemetry, tenant-scoped memory, reproducible benchmarks, and quality gates.
 - **Shared operating infrastructure** — reusable multi-tenant foundations, payments, scheduled workflows, browser automation, integrations, publishing, and one internal console for the catalog.
 - **Distribution alongside product** — SEO, newsletters, automated content systems, social publishing, and product-level analytics.
 
-<img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — Current products and systems" width="100%">
+<img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — Products, developer tools, and news" width="100%">
 
-### Products I am building and operating
+### Products and publications
 
-| Product | What it does |
-| --- | --- |
-| **[OpenCal](https://opencal.link)** | Shares open meeting times from multiple calendars on one link, without exposing events. |
-| **[OpenSocials](https://opensocials.thecompound.tech)** | Drafts and schedules social posts for review before they go out. |
-| **[OpenJobs](https://openjobs.thecompound.tech)** | Finds job postings, helps complete employer forms, and waits for review before submission. |
-| <img src="./assets/icons/parserail.svg" width="18" height="18" align="absmiddle">&nbsp;**[ParseRail](https://parserail.thecompound.tech)** | Document parsing and structured AI jobs through an API, SDKs, and integrations for Claude Code, Gemini CLI, MCP clients, and n8n. |
-| <img src="./assets/icons/breachprobe.svg" width="18" height="18" align="absmiddle">&nbsp;**[BreachProbe](https://breachprobe.thecompound.tech)** | Scans a live app for exposed data and tests whether two users can read each other's rows. |
-| <img src="./assets/icons/rulestack.svg" width="18" height="18" align="absmiddle">&nbsp;**[RuleStack](https://rulestack.thecompound.tech)** | Collects and compares real coding-agent instruction files from public repositories. |
-| <img src="./assets/icons/skillworks.svg" width="18" height="18" align="absmiddle">&nbsp;**[SkillWorks](https://skillworks.thecompound.tech)** | Reads and scores Claude Code skills, agents, and plugins from their source. |
-| <img src="./assets/icons/agentwire.svg" width="18" height="18" align="absmiddle">&nbsp;**[Agentwire](https://agentwire.thecompound.tech)** | Indexes shipped agent tools and frameworks, with credit to their builders. |
-| <img src="./assets/icons/tooldrift.svg" width="18" height="18" align="absmiddle">&nbsp;**[ToolDrift](https://tooldrift.thecompound.tech)** | Tracks changes in AI coding tools and the models they run. |
+<table>
+<thead><tr><th>Product</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td nowrap="nowrap"><a href="https://opencal.link"><img src="./assets/icons/opencal.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenCal</a></td><td>Shares open meeting times from multiple calendars on one link, without exposing events.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://opensocials.thecompound.tech"><img src="./assets/icons/opensocials.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenSocials</a></td><td>Drafts and schedules social posts for review before they go out.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://openjobs.thecompound.tech"><img src="./assets/icons/openjobs.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenJobs</a></td><td>Finds job postings, helps complete employer forms, and waits for review before submission.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://blockdex.thecompound.tech"><img src="./assets/icons/blockdex.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;BlockDex</a></td><td>Searches individual components across public shadcn registries.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://breachprobe.thecompound.tech"><img src="./assets/icons/breachprobe.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;BreachProbe</a></td><td>Scans a live app for exposed data and tests whether two users can read each other's rows.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://citerank.thecompound.tech"><img src="./assets/icons/citerank.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;CiteRank</a></td><td>Tracks whether AI answer engines cite, name, or omit a product.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://skillworks.thecompound.tech"><img src="./assets/icons/skillworks.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;SkillWorks</a></td><td>Reads and scores Claude Code skills, agents, and plugins from their source.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://frontwire.thecompound.tech"><img src="./assets/icons/frontwire.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Front&nbsp;Wire</a></td><td>Publishes breaking news linked to its sources.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://stillmornings.thecompound.tech"><img src="./assets/icons/still-mornings.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Still&nbsp;Mornings</a></td><td>A browsable publication of short video entries.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://whyyourbrain.thecompound.tech"><img src="./assets/icons/whyyourbraindoesthat.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Why&nbsp;Your&nbsp;Brain&nbsp;Does&nbsp;That</a></td><td>A searchable publication about psychological phenomena.</td></tr>
+</tbody>
+</table>
 
-### Shared agents and integrations
+### Developer tools on Compound Labs
 
-The former collection of single-purpose agent apps has been consolidated. These are the current reusable systems behind the work, linked from the [Compound Labs site](https://thecompound.tech):
+<table>
+<thead><tr><th>Section</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/infrastructure-cost-calculator"><img src="./assets/icons/infrastructure-cost-calculator.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Infrastructure&nbsp;Cost&nbsp;Calculator</a></td><td>Compare the cost of running your stack.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/starter-kit-comparison"><img src="./assets/icons/starter-kit-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Starter&nbsp;Kit&nbsp;Comparison</a></td><td>Compare starter kits before you build.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/ai-coding-rules"><img src="./assets/icons/ai-coding-rules.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Coding&nbsp;Rules</a></td><td>Find rules for your AI coding assistant.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/tool-maintenance-tracker"><img src="./assets/icons/tool-maintenance-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Tool&nbsp;Maintenance&nbsp;Tracker</a></td><td>Check whether a developer tool is still maintained.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/mobile-app-builder-comparison"><img src="./assets/icons/mobile-app-builder-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Mobile&nbsp;App&nbsp;Builder&nbsp;Comparison</a></td><td>Compare builders for shipping mobile apps.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/ai-coding-tool-tracker"><img src="./assets/icons/ai-coding-tool-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Coding&nbsp;Tool&nbsp;Tracker</a></td><td>Track changes across AI coding tools.</td></tr>
+</tbody>
+</table>
 
-| System | What it does |
-| --- | --- |
-| **[ActionRail](https://actionrail.thecompound.tech)** | Runs approved account actions with per-tenant limits, an undo window, and receipts. |
-| **[ComplyRail](https://complyrail.thecompound.tech)** | Reads source documents, applies a rule set, and renders a grounded filing pack. |
-| **[NewsRail](https://newsrail.thecompound.tech)** | Polls sources, verifies drafts, and publishes news posts for the lab's wires. |
-| **[ReelRail](https://reelrail.thecompound.tech)** | Researches, renders, and publishes short videos for the lab's publications. |
-| **PostRail** | The posting engine behind [OpenSocials](https://opensocials.thecompound.tech), scheduling through platform APIs. |
-| **ApplyRail** | The application engine behind [OpenJobs](https://openjobs.thecompound.tech), preparing forms for human review. |
+### Developer news on Compound Labs
 
-The [ParseRail MCP server](https://github.com/kyisaiah47/parserail-mcp), [Gemini CLI extension](https://github.com/kyisaiah47/parserail-gemini-extension), and [n8n nodes](https://github.com/kyisaiah47/n8n-nodes-parserail) are integrations of ParseRail, documented together on its site.
+<table>
+<thead><tr><th>Section</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/releases"><img src="./assets/icons/releases-security-outages.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Releases,&nbsp;Security&nbsp;&amp;&nbsp;Outages</a></td><td>Follow software releases, vulnerabilities and incidents.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/developer-tools"><img src="./assets/icons/new-developer-tools.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;New&nbsp;Developer&nbsp;Tools</a></td><td>Discover new tools for developers.</td></tr>
+<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/ai"><img src="./assets/icons/ai-models-pricing-api-changes.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Models,&nbsp;Pricing&nbsp;&amp;&nbsp;API&nbsp;Changes</a></td><td>Keep up with model releases and API changes.</td></tr>
+</tbody>
+</table>
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
