@@ -24,54 +24,43 @@ I have 8+ years as a full-stack engineer, including 3+ at senior level. I do my 
 
 **[Compound Labs](https://thecompound.tech)** is my independent product R&amp;D lab. I research opportunities and underserved problems, turn the strongest ones into working software, launch them, and operate the systems behind them.
 
-The products are deliberately not confined to one category. The range—applied AI, accessibility compliance, cybersecurity readiness, developer tools, data products, workflow automation, and consumer experiments—is part of the research.
+The current catalog is smaller by design. I retired a large group of standalone apps and brought related work together under Compound Labs, ParseRail, and reusable agents. The live work spans developer tools, security, publishing, automation, and consumer software. The [Compound Labs register](https://thecompound.tech) is the current record of what is live and what is still being built.
 
 - **Complete product ownership** — strategy, UX, engineering, authentication, billing, data, automation, analytics, launch, and ongoing operations.
 - **Applied AI as an engineering system** — structured outputs, model routing, per-call cost and latency telemetry, tenant-scoped memory, reproducible benchmarks, and quality gates.
 - **Shared operating infrastructure** — reusable multi-tenant foundations, payments, scheduled workflows, browser automation, integrations, publishing, and one internal console for the catalog.
 - **Distribution alongside product** — SEO, newsletters, automated content systems, social publishing, and product-level analytics.
 
-<img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — AI and agent systems" width="100%">
+<img src="./assets/strip-agent-systems-2026-09-11.png" alt="02 — Current products and systems" width="100%">
 
-### Agentic products
+### Products I am building and operating
 
-Every agent runs independently, reads its source documents, drafts the action, and waits for a person to approve it before anything leaves the building.
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What the agent does |
+| Product | What it does |
 | --- | --- |
-| <img src="./assets/icons/unemploy.svg" width="18" height="18" align="absmiddle">&nbsp;**[Unemploy](https://unemploy.co)** | Unemployment claims desk for employers with no claims specialist. Agents answer every claim inside the state's window, and every window is computed by a rules table from the date on the notice. |
-| <img src="./assets/icons/fetchdue.svg" width="18" height="18" align="absmiddle">&nbsp;**[FetchDue](https://fetchdue.thecompound.tech)** | Collections agent for agencies. It works the overdue list out of your own mailbox, reads what each client replies, drafts the answer in your voice, and follows up until the money lands. |
-| <img src="./assets/icons/triagedesk.svg" width="18" height="18" align="absmiddle">&nbsp;**[TriageDesk](https://triagedesk.thecompound.tech)** | Overnight triage agent for a shared inbox. It reads support@ overnight, drafts every reply, and holds an approved send for 120 seconds before it goes. |
-| <img src="./assets/icons/covercheck.svg" width="18" height="18" align="absmiddle">&nbsp;**[CoverCheck](https://covercheck.thecompound.tech)** | Reads each vendor's certificate of insurance, checks the limits and endorsements against your requirements, flags what is short or expiring, and chases the agent for the renewal. |
-| <img src="./assets/icons/clausewatch.svg" width="18" height="18" align="absmiddle">&nbsp;**[ClauseWatch](https://clausewatch.thecompound.tech)** | Re-reads every uploaded contract each night, finds the term end and the notice period, and emails you before an auto-renewal locks in. It never states a date it could not find. |
-| <img src="./assets/icons/matchrail.svg" width="18" height="18" align="absmiddle">&nbsp;**[MatchRail](https://matchrail.thecompound.tech)** | Three-way match for the month-end close. It reconciles the purchase order, the receipt and the bill against your QuickBooks or Xero ledger overnight and queues only the ones that disagree. |
-| <img src="./assets/icons/cardchase.svg" width="18" height="18" align="absmiddle">&nbsp;**[CardChase](https://cardchase.thecompound.tech)** | Retries failed subscription charges on the schedule you set and writes the customer in your voice. It stops on any card the network has already refused. |
-| <img src="./assets/icons/starreply.svg" width="18" height="18" align="absmiddle">&nbsp;**[StarReply](https://starreply.thecompound.tech)** | Review-reply agent for multi-location businesses. It reads the night's reviews, drafts each reply, and holds an approved one 30 seconds before it posts. |
-| <img src="./assets/icons/leadgrade.svg" width="18" height="18" align="absmiddle">&nbsp;**[LeadGrade](https://leadgrade.thecompound.tech)** | Inbound lead agent for founder-led sales. It scores every lead that arrived overnight and ranks the queue highest first. |
-| <img src="./assets/icons/listrun.svg" width="18" height="18" align="absmiddle">&nbsp;**[ListRun](https://listrun.thecompound.tech)** | Fills the submission form on every free startup, AI and SaaS directory a product qualifies for, and returns one row per directory, including the ones nothing was attempted on and why. |
-| <img src="./assets/icons/breachprobe.svg" width="18" height="18" align="absmiddle">&nbsp;**[BreachProbe](https://breachprobe.thecompound.tech)** | Signs up two throwaway users against a live app and checks whether row-level security really isolates them. |
-| <img src="./assets/icons/policydrift.svg" width="18" height="18" align="absmiddle">&nbsp;**[PolicyDrift](https://policydrift.thecompound.tech)** | Loads a page in a real browser, records every third party it contacts, reads the privacy policy the page links to, and reports each one against the other. |
+| **[OpenCal](https://opencal.link)** | Shares open meeting times from multiple calendars on one link, without exposing events. |
+| **[OpenSocials](https://opensocials.thecompound.tech)** | Drafts and schedules social posts for review before they go out. |
+| **[OpenJobs](https://openjobs.thecompound.tech)** | Finds job postings, helps complete employer forms, and waits for review before submission. |
+| <img src="./assets/icons/parserail.svg" width="18" height="18" align="absmiddle">&nbsp;**[ParseRail](https://parserail.thecompound.tech)** | Document parsing and structured AI jobs through an API, SDKs, and integrations for Claude Code, Gemini CLI, MCP clients, and n8n. |
+| <img src="./assets/icons/breachprobe.svg" width="18" height="18" align="absmiddle">&nbsp;**[BreachProbe](https://breachprobe.thecompound.tech)** | Scans a live app for exposed data and tests whether two users can read each other's rows. |
+| <img src="./assets/icons/rulestack.svg" width="18" height="18" align="absmiddle">&nbsp;**[RuleStack](https://rulestack.thecompound.tech)** | Collects and compares real coding-agent instruction files from public repositories. |
+| <img src="./assets/icons/skillworks.svg" width="18" height="18" align="absmiddle">&nbsp;**[SkillWorks](https://skillworks.thecompound.tech)** | Reads and scores Claude Code skills, agents, and plugins from their source. |
+| <img src="./assets/icons/agentwire.svg" width="18" height="18" align="absmiddle">&nbsp;**[Agentwire](https://agentwire.thecompound.tech)** | Indexes shipped agent tools and frameworks, with credit to their builders. |
+| <img src="./assets/icons/tooldrift.svg" width="18" height="18" align="absmiddle">&nbsp;**[ToolDrift](https://tooldrift.thecompound.tech)** | Tracks changes in AI coding tools and the models they run. |
 
-### AI developer tools
+### Shared agents and integrations
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does |
+The former collection of single-purpose agent apps has been consolidated. These are the current reusable systems behind the work, linked from the [Compound Labs site](https://thecompound.tech):
+
+| System | What it does |
 | --- | --- |
-| <img src="./assets/icons/compound-mcp.svg" width="18" height="18" align="absmiddle">&nbsp;**[OpenLookup](https://github.com/kyisaiah47/openlookup)** | OpenLookup provides eleven keyless tools for current model routing and pricing, dependency health, stack costs, agent-skill discovery, registry search, and public compliance data. |
-| <img src="./assets/icons/parserail.svg" width="18" height="18" align="absmiddle">&nbsp;**[ParseRail](https://parserail.thecompound.tech)** | Production AI back end with 44 endpoints, four SDKs, MCP, structured outputs, model routing, per-call telemetry, and evaluation gates. |
-| <img src="./assets/icons/agentwire.svg" width="18" height="18" align="absmiddle">&nbsp;**[AgentWire](https://agentwire.thecompound.tech)** | Index of shipped MCP servers, coding-agent harnesses and agent frameworks, built from curated lists, Hacker News, star velocity and topic signals, credited to whoever built it. |
-| <img src="./assets/icons/skillworks.svg" width="18" height="18" align="absmiddle">&nbsp;**[SkillWorks](https://skillworks.thecompound.tech)** | Every Claude Code skill, subagent and plugin, read from the source and scored 0 to 100 on four weighted components, every night. |
-| <img src="./assets/icons/rulestack.svg" width="18" height="18" align="absmiddle">&nbsp;**[RuleStack](https://rulestack.thecompound.tech)** | Gallery of real AGENTS.md, CLAUDE.md, Cursor, Copilot, Windsurf, GEMINI.md and Cline files, scraped from live repositories every night, classified by stack and scored. Capabilities are asserted; adoption is measured. |
-| <img src="./assets/icons/tooldrift.svg" width="18" height="18" align="absmiddle">&nbsp;**[ToolDrift](https://tooldrift.thecompound.tech)** | Which coding model Cursor, Claude Code and Copilot are running tonight, scored on what developers actually run inside their tools and re-counted every night. |
-| <img src="./assets/icons/stillshipping.svg" width="18" height="18" align="absmiddle">&nbsp;**[StillShipping](https://stillshipping.thecompound.tech)** | Which agent tools have stopped shipping, rescored every night from the GitHub API. |
-| <img src="./assets/icons/toolproof.svg" width="18" height="18" align="absmiddle">&nbsp;**[Toolproof](https://toolproof.thecompound.tech)** | Independent measurement layer for AI agent tooling: nine execution-tested indexes, one published method, and open data. |
-| **[deferless](https://github.com/kyisaiah47/deferless)** | Fail-closed gates for work an AI agent did on your behalf: a plan it can’t quietly deviate from, findings it can’t defer. |
-| **[leakless](https://github.com/kyisaiah47/leakless)** | GitHub Action: scans a deployed URL with BreachProbe and fails the build on an exposed database or an open write path. |
-| **[stubless](https://github.com/kyisaiah47/stubless)** | GitHub Action: scores a repository’s AGENTS.md/CLAUDE.md against RuleStack and fails the job below a threshold. |
-| **[glanceless](https://github.com/kyisaiah47/glanceless)** | Page-level design rules measured in a real browser: contrast, dead columns, full-column figures, copy noise, failed closed. |
-| **[parserail-mcp](https://github.com/kyisaiah47/parserail-mcp)** | The ParseRail MCP server provides 41 tools for finished-job AI work, uses one credit wallet, and never burns credits on failed calls. |
-| **[parserail-gemini-extension](https://github.com/kyisaiah47/parserail-gemini-extension)** | The ParseRail Gemini CLI extension provides native tools for financial-document extraction, PII redaction, and contract review. |
-| **[n8n-nodes-parserail](https://github.com/kyisaiah47/n8n-nodes-parserail)** | The ParseRail n8n community node provides 41 finished-job AI operations in one node and is flagged usableAsTool. |
-| **[shipprobe](https://github.com/kyisaiah47/shipprobe)** | One tool for shipping safely: security, dependency, agent-instruction, rendered-page and plan checks that fail closed and run offline. |
+| **[ActionRail](https://actionrail.thecompound.tech)** | Runs approved account actions with per-tenant limits, an undo window, and receipts. |
+| **[ComplyRail](https://complyrail.thecompound.tech)** | Reads source documents, applies a rule set, and renders a grounded filing pack. |
+| **[NewsRail](https://newsrail.thecompound.tech)** | Polls sources, verifies drafts, and publishes news posts for the lab's wires. |
+| **[ReelRail](https://reelrail.thecompound.tech)** | Researches, renders, and publishes short videos for the lab's publications. |
+| **PostRail** | The posting engine behind [OpenSocials](https://opensocials.thecompound.tech), scheduling through platform APIs. |
+| **ApplyRail** | The application engine behind [OpenJobs](https://openjobs.thecompound.tech), preparing forms for human review. |
+
+The [ParseRail MCP server](https://github.com/kyisaiah47/parserail-mcp), [Gemini CLI extension](https://github.com/kyisaiah47/parserail-gemini-extension), and [n8n nodes](https://github.com/kyisaiah47/n8n-nodes-parserail) are integrations of ParseRail, documented together on its site.
 
 <img src="./assets/strip-background-compound-2026-09-11.png" alt="03 — Background" width="100%">
 
