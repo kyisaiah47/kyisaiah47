@@ -38,16 +38,16 @@ Compound Labs now brings developer tools and news sections together under one si
 <table>
 <thead><tr><th>Product</th><th>What it does</th></tr></thead>
 <tbody>
-<tr><td nowrap="nowrap"><a href="https://opencal.link"><img src="./assets/icons/opencal.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenCal</a></td><td>Shares open meeting times from multiple calendars on one link, without exposing events.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://opensocials.thecompound.tech"><img src="./assets/icons/opensocials.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenSocials</a></td><td>Drafts and schedules social posts for review before they go out.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://openjobs.thecompound.tech"><img src="./assets/icons/openjobs.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;OpenJobs</a></td><td>Finds job postings, helps complete employer forms, and waits for review before submission.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://blockdex.thecompound.tech"><img src="./assets/icons/blockdex.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;BlockDex</a></td><td>Searches individual components across public shadcn registries.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://breachprobe.thecompound.tech"><img src="./assets/icons/breachprobe.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;BreachProbe</a></td><td>Scans a live app for exposed data and tests whether two users can read each other's rows.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://citerank.thecompound.tech"><img src="./assets/icons/citerank.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;CiteRank</a></td><td>Tracks whether AI answer engines cite, name, or omit a product.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://skillworks.thecompound.tech"><img src="./assets/icons/skillworks.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;SkillWorks</a></td><td>Reads and scores Claude Code skills, agents, and plugins from their source.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://frontwire.thecompound.tech"><img src="./assets/icons/frontwire.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Front&nbsp;Wire</a></td><td>Publishes breaking news linked to its sources.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://stillmornings.thecompound.tech"><img src="./assets/icons/still-mornings.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Still&nbsp;Mornings</a></td><td>A browsable publication of short video entries.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://whyyourbrain.thecompound.tech"><img src="./assets/icons/whyyourbraindoesthat.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Why&nbsp;Your&nbsp;Brain&nbsp;Does&nbsp;That</a></td><td>A searchable publication about psychological phenomena.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/opencal.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://opencal.link">OpenCal</a></td><td>Shares open meeting times from multiple calendars on one link, without exposing events.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/opensocials.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://opensocials.thecompound.tech">OpenSocials</a></td><td>Drafts and schedules social posts for review before they go out.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/openjobs.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://openjobs.thecompound.tech">OpenJobs</a></td><td>Finds job postings, helps complete employer forms, and waits for review before submission.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/blockdex.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://blockdex.thecompound.tech">BlockDex</a></td><td>Searches individual components across public shadcn registries.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/breachprobe.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://breachprobe.thecompound.tech">BreachProbe</a></td><td>Scans a live app for exposed data and tests whether two users can read each other's rows.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/citerank.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://citerank.thecompound.tech">CiteRank</a></td><td>Tracks whether AI answer engines cite, name, or omit a product.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/skillworks.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://skillworks.thecompound.tech">SkillWorks</a></td><td>Reads and scores Claude Code skills, agents, and plugins from their source.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/frontwire.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://frontwire.thecompound.tech">Front&nbsp;Wire</a></td><td>Publishes breaking news linked to its sources.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/still-mornings.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://stillmornings.thecompound.tech">Still&nbsp;Mornings</a></td><td>A browsable publication of short video entries.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/whyyourbraindoesthat.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://whyyourbrain.thecompound.tech">Why&nbsp;Your&nbsp;Brain&nbsp;Does&nbsp;That</a></td><td>A searchable publication about psychological phenomena.</td></tr>
 </tbody>
 </table>
 
@@ -56,12 +56,12 @@ Compound Labs now brings developer tools and news sections together under one si
 <table>
 <thead><tr><th>Section</th><th>What it does</th></tr></thead>
 <tbody>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/infrastructure-cost-calculator"><img src="./assets/icons/infrastructure-cost-calculator.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Infrastructure&nbsp;Cost&nbsp;Calculator</a></td><td>Compare the cost of running your stack.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/starter-kit-comparison"><img src="./assets/icons/starter-kit-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Starter&nbsp;Kit&nbsp;Comparison</a></td><td>Compare starter kits before you build.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/ai-coding-rules"><img src="./assets/icons/ai-coding-rules.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Coding&nbsp;Rules</a></td><td>Find rules for your AI coding assistant.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/tool-maintenance-tracker"><img src="./assets/icons/tool-maintenance-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Tool&nbsp;Maintenance&nbsp;Tracker</a></td><td>Check whether a developer tool is still maintained.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/mobile-app-builder-comparison"><img src="./assets/icons/mobile-app-builder-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Mobile&nbsp;App&nbsp;Builder&nbsp;Comparison</a></td><td>Compare builders for shipping mobile apps.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/tools/ai-coding-tool-tracker"><img src="./assets/icons/ai-coding-tool-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Coding&nbsp;Tool&nbsp;Tracker</a></td><td>Track changes across AI coding tools.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/infrastructure-cost-calculator.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/infrastructure-cost-calculator">Infrastructure&nbsp;Cost&nbsp;Calculator</a></td><td>Compare the cost of running your stack.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/starter-kit-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/starter-kit-comparison">Starter&nbsp;Kit&nbsp;Comparison</a></td><td>Compare starter kits before you build.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/ai-coding-rules.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/ai-coding-rules">AI&nbsp;Coding&nbsp;Rules</a></td><td>Find rules for your AI coding assistant.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/tool-maintenance-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/tool-maintenance-tracker">Tool&nbsp;Maintenance&nbsp;Tracker</a></td><td>Check whether a developer tool is still maintained.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/mobile-app-builder-comparison.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/mobile-app-builder-comparison">Mobile&nbsp;App&nbsp;Builder&nbsp;Comparison</a></td><td>Compare builders for shipping mobile apps.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/ai-coding-tool-tracker.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/tools/ai-coding-tool-tracker">AI&nbsp;Coding&nbsp;Tool&nbsp;Tracker</a></td><td>Track changes across AI coding tools.</td></tr>
 </tbody>
 </table>
 
@@ -70,9 +70,9 @@ Compound Labs now brings developer tools and news sections together under one si
 <table>
 <thead><tr><th>Section</th><th>What it does</th></tr></thead>
 <tbody>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/releases"><img src="./assets/icons/releases-security-outages.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;Releases,&nbsp;Security&nbsp;&amp;&nbsp;Outages</a></td><td>Follow software releases, vulnerabilities and incidents.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/developer-tools"><img src="./assets/icons/new-developer-tools.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;New&nbsp;Developer&nbsp;Tools</a></td><td>Discover new tools for developers.</td></tr>
-<tr><td nowrap="nowrap"><a href="https://thecompound.tech/news/ai"><img src="./assets/icons/ai-models-pricing-api-changes.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;AI&nbsp;Models,&nbsp;Pricing&nbsp;&amp;&nbsp;API&nbsp;Changes</a></td><td>Keep up with model releases and API changes.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/releases-security-outages.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/news/releases">Releases,&nbsp;Security&nbsp;&amp;&nbsp;Outages</a></td><td>Follow software releases, vulnerabilities and incidents.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/new-developer-tools.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/news/developer-tools">New&nbsp;Developer&nbsp;Tools</a></td><td>Discover new tools for developers.</td></tr>
+<tr><td nowrap="nowrap"><img src="./assets/icons/ai-models-pricing-api-changes.svg" width="20" height="20" align="absmiddle" alt="">&nbsp;&nbsp;<a href="https://thecompound.tech/news/ai">AI&nbsp;Models,&nbsp;Pricing&nbsp;&amp;&nbsp;API&nbsp;Changes</a></td><td>Keep up with model releases and API changes.</td></tr>
 </tbody>
 </table>
 
