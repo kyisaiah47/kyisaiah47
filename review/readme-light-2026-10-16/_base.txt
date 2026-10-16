@@ -1,0 +1,11 @@
+Use case: stylized-concept
+Asset type: transparent centerpiece for a Compound Labs GitHub profile graphic, placed on a near-white #fbfbfc page
+Scene/backdrop: genuinely transparent alpha; no floor, environment, frame, separate shadow, lattice, or typography
+Concept selection, mandatory: depict the concrete real-world subject literally. A viewer who has not read the post must be able to name the thing at thumbnail size.
+Style/medium: crisp blocky low-poly isometric 3D; hard edges; flat planar faces; restrained ambient occlusion only at joins and undersides
+Composition/framing: centered; true orthographic isometric view; verticals vertical and every other structural edge on equal ±30° projected axes; compact silhouette; full object visible; generous margin
+Lighting/mood: precise, calm, engineered studio lighting, bright and high-key so it sits on a white page
+Color palette: white and pale-grey structural faces, mid-grey and charcoal working faces, exactly one small blue #2F6BFF functional accent
+Materials/textures: matte solid material; no gloss; no gradients painted across faces; no grain
+Text: none, no letters or numbers anywhere
+Avoid: printers, scanners, filing cabinets, stacks of paper, conveyor belts, perspective convergence, clay softness, inflated forms, app-icon tiles, glass, chrome, neon, extra symbols, surrounding cubes, logos

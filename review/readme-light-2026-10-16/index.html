@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub README review</title>
+<style>
+@font-face{font-family:Inter;src:url(inter-latin.woff2) format('woff2');font-weight:100 900;font-display:block}
+:root{--ground:#fbfbfc;--ink:#15171a;--ink2:#4d525b;--ink3:#6b7079;--rule:#e3e5e9;--blue:#2f6bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.page{max-width:1000px;margin:0 auto;padding:48px 16px 96px}
+.page>h1{font-weight:500;letter-spacing:-.03em;font-size:40px;margin:0 0 12px}
+.page>p{color:var(--ink2);font-size:15.5px;line-height:1.6;max-width:760px;margin:0 0 8px}
+.toggle{display:inline-flex;gap:4px;background:#f0f1f3;border-radius:999px;padding:4px;margin:12px 0 0}
+.toggle button{border:0;background:transparent;font:600 13px Inter,sans-serif;color:var(--ink2);padding:6px 14px;border-radius:999px;cursor:pointer}
+.toggle button.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(15,17,20,.08)}
+section.v{margin-top:64px;border-top:1px solid var(--rule);padding-top:28px}
+section.v>h2{font-weight:500;letter-spacing:-.02em;font-size:28px;margin:0 0 6px}
+section.v>p{color:var(--ink2);font-size:15.5px;line-height:1.6;margin:0 0 20px;max-width:760px}
+.gh{border-radius:8px;padding:24px 32px;max-width:900px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5}
+.gh.dark{background:#0d1117;color:#e6edf3;box-shadow:0 0 0 1px #30363d}
+.gh.light{background:#fff;color:#1f2328;box-shadow:0 0 0 1px #d1d9e0}
+.gh .bar{font-size:14px;margin-bottom:16px;opacity:.75;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.gh h3{font-size:20px;font-weight:600;margin:24px 0 12px;padding-bottom:6px;border-bottom:1px solid #30363d}
+.gh.light h3{border-color:#d1d9e0}
+.gh a{color:#4493f8;text-decoration:none}.gh.light a{color:#0969da}
+.gh p,.gh li{margin:0 0 12px}
+.gh .center{text-align:center}
+.gh .links{text-align:center;font-weight:600;margin:12px 0 16px}
+.gh table{border-collapse:collapse;width:100%;margin:0 0 16px;font-size:15px}
+.gh td,.gh th{border:1px solid #30363d;padding:6px 13px;text-align:left}
+.gh.light td,.gh.light th{border-color:#d1d9e0}
+.gh td img{width:20px;height:20px;vertical-align:middle;margin-right:8px}
+.gh .g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 16px}
+.gh .g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:0 0 16px}
+.gh .stack>*{margin-bottom:12px}
+.gfx{container-type:inline-size;width:100%;position:relative;overflow:hidden;border-radius:6px;display:block}
+.gfx .c{position:absolute;inset:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--ground)}
+.gfx .dots{position:absolute;inset:0;background-image:radial-gradient(circle,#d3d6dc .09cqw,transparent .11cqw);background-size:1.15cqw 1.15cqw}
+.gfx .rail{position:absolute;top:0;bottom:0;width:1px;background:var(--rule)}
+.gfx .plus{position:absolute;width:.9cqw;height:.9cqw;transform:translate(-50%,-50%)}
+.gfx .plus:before,.gfx .plus:after{content:"";position:absolute;background:#a9adb5}
+.gfx .plus:before{left:50%;top:0;width:1px;height:100%}.gfx .plus:after{top:50%;left:0;height:1px;width:100%}
+.gfx .obj{position:absolute;object-fit:contain}
+.gfx .h{font-weight:500;letter-spacing:-.035em;line-height:1.06;margin:0}
+.gfx .s{font-weight:400;letter-spacing:-.01em;line-height:1.3;color:var(--ink2);margin:0}
+.gfx .lock{position:absolute;display:flex;align-items:center;gap:.9cqw;font-weight:600;letter-spacing:-.02em;white-space:nowrap}
+.gfx .pill{display:inline-flex;align-items:center;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-weight:400;background:#fff;box-shadow:inset 0 0 0 .08cqw var(--rule);border-radius:999px;color:var(--ink3);letter-spacing:0}
+.gfx .nm{color:var(--blue)}
+.gfx .pm{display:inline-block;height:.8em;width:auto;vertical-align:-.04em;margin-right:.22em}
+.gfx .pending{position:absolute;display:flex;align-items:center;justify-content:center;color:var(--ink3);font-size:1.4cqw;border-radius:1cqw;background:repeating-linear-gradient(45deg,#f4f5f7 0 .6cqw,#eceef1 .6cqw 1.2cqw)}
+.hero{aspect-ratio:7/2}
+.hero .dots{right:auto;width:36cqw;-webkit-mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%);mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%)}
+.hero .rail{left:36cqw}.hero .plus.a{left:36cqw;top:2.6cqw}.hero .plus.b{left:36cqw;top:auto;bottom:2.6cqw;transform:translate(-50%,50%)}
+.hero .obj{left:2cqw;top:2cqw;width:32cqw;height:24.6cqw}
+.hero .txt{position:absolute;left:40cqw;right:4cqw;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+.hero .h{font-size:3.7cqw}
+.hero .s{font-size:1.8cqw;margin-top:1.6cqw}
+.hero .lock{left:40cqw;bottom:2.4cqw;font-size:1.5cqw}
+.hero .lock .pill{font-size:.95cqw;height:1.9cqw;padding:0 .9cqw;margin-left:.6cqw}
+.card{aspect-ratio:7/3}
+.card .dots{right:auto;width:40cqw;-webkit-mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%);mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%)}
+.card .rail{left:40cqw}.card .plus.a{left:40cqw;top:3cqw}.card .plus.b{left:40cqw;top:auto;bottom:3cqw;transform:translate(-50%,50%)}
+.card .obj{left:3cqw;top:4cqw;width:34cqw;height:34.8cqw}
+.card .txt{position:absolute;left:45cqw;right:5cqw;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+.card .h{font-size:4.6cqw}
+.card .s{font-size:2.3cqw;margin-top:2cqw}
+.card .lock{left:45cqw;bottom:3.4cqw;font-size:1.9cqw}
+.card .lock .pill{font-size:1.2cqw;height:2.4cqw;padding:0 1.1cqw;margin-left:.6cqw}
+.tile{aspect-ratio:4/3}
+.tile .dots{-webkit-mask-image:radial-gradient(ellipse 70% 60% at 80% 20%,#000 10%,transparent 75%);mask-image:radial-gradient(ellipse 70% 60% at 80% 20%,#000 10%,transparent 75%)}
+.tile .txt{position:absolute;left:8cqw;right:8cqw;top:9cqw}
+.tile .h{font-size:9cqw}
+.tile .s{font-size:5.4cqw;margin-top:4cqw}
+.tile .pill{position:absolute;left:8cqw;bottom:8cqw;font-size:3.6cqw;height:7cqw;padding:0 3cqw}
+.band{aspect-ratio:8/1}
+.band .dots{left:auto;width:30cqw;-webkit-mask-image:linear-gradient(90deg,transparent,#000 60%);mask-image:linear-gradient(90deg,transparent,#000 60%)}
+.band .txt{position:absolute;left:3cqw;top:0;bottom:0;display:flex;align-items:center}
+.band .h{font-size:3cqw}
+.band .rail{left:auto;right:30cqw}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>GitHub README, light graphics</h1>
+  <p>Four ways to rebuild the profile README with the light cards. Graphics are drawn here as HTML at their export size. Each one ships as a PNG wrapped in its own link, so every product card stays clickable.</p>
+  <p>Your current README text is used as written. The products shown are four roster products with tonight's Codex objects. The full build covers every current roster product.</p>
+  <div class="toggle"><button data-t="dark" class="on">GitHub dark</button><button data-t="light">GitHub light</button></div>
+  <div id="variants"></div>
+</div>
+<script>
+const LAB = "<span class=\"compound-lockup\" data-compound-lockup=\"1\" style=\"display:inline-flex;align-items:center;gap:0.34em;white-space:nowrap\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjMzLjIgMjIuNzcgMTczLjYgMTkwLjU3IiB3aWR0aD0iMTczLjYiIGhlaWdodD0iMTkwLjU3Ij48Zz48cGF0aCBkPSJNMTMwLjM5IDI1Ljc3TDE5MS40MSA2MVEyMDEuOCA2NyAxOTEuNDEgNzNMMTc2LjI5IDgxLjczUTE2NS45IDg3LjczIDE1NS41MSA4MS43M0wxMzAuMzkgNjcuMjNRMTIwIDYxLjIzIDEwOS42MSA2Ny4yM0w4NC40OSA4MS43M1E3NC4xIDg3LjczIDYzLjcxIDgxLjczTDQ4LjU5IDczUTM4LjIgNjcgNDguNTkgNjFMMTA5LjYxIDI1Ljc3UTEyMCAxOS43NyAxMzAuMzkgMjUuNzdaIiBmaWxsPSIjMTUxNzFhIj48L3BhdGg+PHBhdGggZD0iTTIwNi44IDg3LjY2TDIwNi44IDE1OC4xMVEyMDYuOCAxNzAuMTEgMTk2LjQxIDE3Ni4xMUwxMzUuMzkgMjExLjM0UTEyNSAyMTcuMzQgMTI1IDIwNS4zNEwxMjUgMTg3Ljg5UTEyNSAxNzUuODkgMTM1LjM5IDE2OS44OUwxNjAuNTEgMTU1LjM5UTE3MC45IDE0OS4zOSAxNzAuOSAxMzcuMzlMMTcwLjkgMTA4LjM5UTE3MC45IDk2LjM5IDE4MS4yOSA5MC4zOUwxOTYuNDEgODEuNjZRMjA2LjggNzUuNjYgMjA2LjggODcuNjZaIiBmaWxsPSIjMTUxNzFhIj48L3BhdGg+PHBhdGggZD0iTTQzLjU5IDgxLjY2TDU4LjcxIDkwLjM5UTY5LjEgOTYuMzkgNjkuMSAxMDguMzlMNjkuMSAxMzcuMzlRNjkuMSAxNDkuMzkgNzkuNDkgMTU1LjM5TDEwNC42MSAxNjkuODlRMTE1IDE3NS44OSAxMTUgMTg3Ljg5TDExNSAyMDUuMzRRMTE1IDIxNy4zNCAxMDQuNjEgMjExLjM0TDQzLjU5IDE3Ni4xMVEzMy4yIDE3MC4xMSAzMy4yIDE1OC4xMUwzMy4yIDg3LjY2UTMzLjIgNzUuNjYgNDMuNTkgODEuNjZaIiBmaWxsPSIjMTUxNzFhIj48L3BhdGg+PHBhdGggZD0iTTExNSA4Ny42NkwxMTUgMTA1LjExUTExNSAxMTcuMTEgMTA0LjYxIDEyMy4xMUw4OS40OSAxMzEuODRRNzkuMSAxMzcuODQgNzkuMSAxMjUuODRMNzkuMSAxMDguMzlRNzkuMSA5Ni4zOSA4OS40OSA5MC4zOUwxMDQuNjEgODEuNjZRMTE1IDc1LjY2IDExNSA4Ny42NloiIGZpbGw9IiMxNTE3MWEiPjwvcGF0aD48cGF0aCBkPSJNMTM1LjM5IDgxLjY2TDE1MC41MSA5MC4zOVExNjAuOSA5Ni4zOSAxNjAuOSAxMDguMzlMMTYwLjkgMTI1Ljg0UTE2MC45IDEzNy44NCAxNTAuNTEgMTMxLjg0TDEzNS4zOSAxMjMuMTFRMTI1IDExNy4xMSAxMjUgMTA1LjExTDEyNSA4Ny42NlExMjUgNzUuNjYgMTM1LjM5IDgxLjY2WiIgZmlsbD0iIzE1MTcxYSI+PC9wYXRoPjxwYXRoIGQ9Ik0xMzAuMzkgMTMxLjc3TDE0NS41MSAxNDAuNVExNTUuOSAxNDYuNSAxNDUuNTEgMTUyLjVMMTMwLjM5IDE2MS4yM1ExMjAgMTY3LjIzIDEwOS42MSAxNjEuMjNMOTQuNDkgMTUyLjVRODQuMSAxNDYuNSA5NC40OSAxNDAuNUwxMDkuNjEgMTMxLjc3UTEyMCAxMjUuNzcgMTMwLjM5IDEzMS43N1oiIGZpbGw9IiMxNTE3MWEiPjwvcGF0aD48L2c+PC9zdmc+\" alt=\"\" style=\"display:block;flex:none;height:1.05em;width:auto;margin:0;padding:0\"><span>Compound Labs</span></span>";
+const CL = "Compound Labs";
+const P = [
+  { key:'opencal', name:'OpenCal', url:'opencal.link', h:'shows your free time from all your calendars on one link.', s:'People see when you are free. They never see your events.' },
+  { key:'blockdex', name:'BlockDex', url:'blockdex.dev', h:'searches individual components across public shadcn registries.', s:'Each item comes with its install command and dependencies.' },
+  { key:'stacktab', name:'StackTab', url:'stacktab.thecompound.tech', h:'prices a database, auth, payments and a host as one monthly bill.', s:'See the bill at 1,000, 10,000 and 100,000 users.' },
+  { key:'kitgrade', name:'KitGrade', url:'kitgrade.thecompound.tech', h:'scores SaaS starter kits on what a buyer can check before paying.', s:'Each kit is labelled hands-on or documented.' },
+];
+const obj = (k, cls='obj') => `<img class="${cls}" src="objects/${k}.png" alt="" onerror="this.outerHTML='<div class=&quot;${cls} pending&quot;>Codex object rendering</div>'">`;
+const mark = (k) => `<img class="pm" src="marks/${k}.svg" alt="">`;
+const grid = '<div class="dots"></div><div class="rail"></div><div class="plus a"></div><div class="plus b"></div>';
+const hero = (h, s, pill='thecompound.tech') => `<a class="gfx hero"><div class="c">${grid}${obj('hero')}<div class="txt"><p class="h">${h}</p><p class="s">${s}</p></div><div class="lock">${LAB}<span class="pill">${pill}</span></div></div></a>`;
+const card = (p) => `<a class="gfx card" href="https://${p.url}"><div class="c">${grid}${obj(p.key)}<div class="txt"><p class="h">${mark(p.key)}<span class="nm">${p.name}</span> ${p.h}</p><p class="s">${p.s}</p></div><div class="lock">${LAB}<span class="pill">${p.url}</span></div></div></a>`;
+const tile = (p) => `<a class="gfx tile" href="https://${p.url}"><div class="c"><div class="dots"></div><div class="txt"><p class="h">${mark(p.key)}<span class="nm">${p.name}</span></p><p class="s">${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</p></div><span class="pill">${p.url}</span></div></a>`;
+const band = (t) => `<div class="gfx band"><div class="c"><div class="dots"></div><div class="rail"></div><div class="txt"><p class="h">${t}</p></div></div></div>`;
+const links = `<p class="links"><a>thecompound.tech</a> · <a>LinkedIn</a> · <a>Email</a></p>`;
+const otw = `<p class="center"><strong>Open to Senior / Staff Full-Stack AI Product Engineer roles.</strong> Full-time · NYC or remote · US citizen · no sponsorship required. <a>Send me the role →</a></p>`;
+const intro = `<p>I have 8+ years as a full-stack engineer, including 3+ at senior level. I do my best work on ambiguous 0→1 builds where I can own the path from research and product strategy through UX, engineering, launch, and operation.</p>`;
+const bg = `<h3>Engineering background</h3><p><strong>SS&amp;C Technologies — Senior Software Engineer, Private Markets.</strong> I was the division’s first web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.</p><p style="opacity:.6">… earlier work, recognition and stack stay as text …</p>`;
+const table = `<table><tr><th>Product</th><th>What it does</th></tr>${P.map(p=>`<tr><td nowrap><img src="marks/${p.key}.svg" alt=""><a>${p.name}</a></td><td>${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</td></tr>`).join('')}</table>`;
+const H = `Founder of ${CL}, an independent product R&amp;D lab.`;
+const S = 'Senior full-stack engineer focused on 0→1 AI products.';
+const V = [
+  { id:'A', t:'A. Hero band and product cards', n:'One wide hero band with the lab object. Real text links and the open-to-work line sit under it. Products are C1 cards, two per row, each its own link. Background stays text.',
+    body:()=>`${hero(H,S)}${links}${otw}${intro}<h3>Products</h3><div class="g2">${P.map(card).join('')}</div>${bg}` },
+  { id:'B', t:'B. Hero band, section bands and a product table', n:'The hero band and thin light section bands are the only graphics. Products stay a text table with registry icons, so every name is a link and the list is searchable.',
+    body:()=>`${hero(H,S)}${links}${otw}${intro}${band('Products I build and run.')}${table}${band('Where I worked before.')}${bg.replace('<h3>Engineering background</h3>','')}` },
+  { id:'C', t:'C. One full-width band per product', n:'A hero band, then each featured product as a full-width C1 band stacked down the page. Biggest graphics, fewest products shown.',
+    body:()=>`${hero(H,S)}${links}${otw}${intro}<h3>Products</h3><div class="stack">${P.map(card).join('')}</div>${bg}` },
+  { id:'D', t:'D. Open-to-work hero and compact tiles', n:'The hero band leads with the role you want. Products are small tiles with the registry mark, the blue name and one line, three per row, with no object.',
+    body:()=>`${hero('Open to Senior and Staff Full-Stack AI Product Engineer roles.',`Founder of ${CL}. NYC or remote. US citizen, no sponsorship required.`)}${links}${intro}<h3>Products</h3><div class="g3">${P.map(tile).join('')}</div>${bg}` },
+];
+function render(theme){
+  document.getElementById('variants').innerHTML = V.map(v=>`<section class="v"><h2>${v.t}</h2><p>${v.n}</p><div class="gh ${theme}"><div class="bar">kyisaiah47 / README.md</div>${v.body()}</div></section>`).join('');
+}
+render('dark');
+document.querySelectorAll('.toggle button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));render(b.dataset.t);});
+</script>
+</body>
+</html>
