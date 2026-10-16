@@ -106,8 +106,8 @@ const card = (p) => `<a class="gfx card" href="https://${p.url}"><div class="c">
 const tile = (p) => `<a class="gfx tile" href="https://${p.url}"><div class="c"><div class="dots"></div><div class="txt"><p class="h">${mark(p.key)}<span class="nm">${p.name}</span></p><p class="s">${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</p></div><span class="pill">${p.url}</span></div></a>`;
 const band = (t) => `<div class="gfx band"><div class="c"><div class="dots"></div><div class="rail"></div><div class="txt"><p class="h">${t}</p></div></div></div>`;
 const links = `<p class="links"><a>thecompound.tech</a> · <a>LinkedIn</a> · <a>Email</a></p>`;
-const otw = `<p class="center"><strong>Open to Senior / Staff Full-Stack AI Product Engineer roles.</strong> Full-time · NYC or remote · US citizen · no sponsorship required. <a>Send me the role →</a></p>`;
-const intro = `<p>I have 8+ years as a full-stack engineer, including 3+ at senior level. I do my best work on ambiguous 0→1 builds where I can own the path from research and product strategy through UX, engineering, launch, and operation.</p>`;
+const otw = `<p class="center"><strong>Open to: Staff / Principal Software Engineer · Tech Lead · Builder.</strong> New York, NY. <a>Send me the role →</a></p>`;
+const intro = ``;
 const bg = `<h3>Engineering background</h3><p><strong>SS&amp;C Technologies — Senior Software Engineer, Private Markets.</strong> I was the division’s first web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.</p><p style="opacity:.6">… earlier work, recognition and stack stay as text …</p>`;
 const table = `<table><tr><th>Product</th><th>What it does</th></tr>${P.map(p=>`<tr><td nowrap><img src="marks/${p.key}.svg" alt=""><a>${p.name}</a></td><td>${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</td></tr>`).join('')}</table>`;
 const H = `Founder of ${CL}, an independent product R&amp;D lab.`;
@@ -120,7 +120,7 @@ const V = [
   { id:'C', t:'C. One full-width band per product', n:'A hero band, then each featured product as a full-width C1 band stacked down the page. Biggest graphics, fewest products shown.',
     body:()=>`${hero(H,S)}${links}${otw}${intro}<h3>Products</h3><div class="stack">${P.map(card).join('')}</div>${bg}` },
   { id:'D', t:'D. Open-to-work hero and compact tiles', n:'The hero band leads with the role you want. Products are small tiles with the registry mark, the blue name and one line, three per row, with no object.',
-    body:()=>`${hero('Open to Senior and Staff Full-Stack AI Product Engineer roles.',`Founder of ${CL}. NYC or remote. US citizen, no sponsorship required.`)}${links}${intro}<h3>Products</h3><div class="g3">${P.map(tile).join('')}</div>${bg}` },
+    body:()=>`${hero('Open to Staff / Principal Software Engineer, Tech Lead and Builder roles.',`Founder of ${CL}. New York, NY.`)}${links}${intro}<h3>Products</h3><div class="g3">${P.map(tile).join('')}</div>${bg}` },
 ];
 function render(theme){
   document.getElementById('variants').innerHTML = V.map(v=>`<section class="v"><h2>${v.t}</h2><p>${v.n}</p><div class="gh ${theme}"><div class="bar">kyisaiah47 / README.md</div>${v.body()}</div></section>`).join('');
