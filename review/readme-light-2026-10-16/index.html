@@ -111,7 +111,7 @@ const intro = `<p>I have 8+ years as a full-stack engineer, including 3+ at seni
 const bg = `<h3>Engineering background</h3><p><strong>SS&amp;C Technologies — Senior Software Engineer, Private Markets.</strong> I was the division’s first web engineer, owning frontend architecture and cross-functional delivery across six enterprise applications.</p><p style="opacity:.6">… earlier work, recognition and stack stay as text …</p>`;
 const table = `<table><tr><th>Product</th><th>What it does</th></tr>${P.map(p=>`<tr><td nowrap><img src="marks/${p.key}.svg" alt=""><a>${p.name}</a></td><td>${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</td></tr>`).join('')}</table>`;
 const H = `Founder of ${CL}, an independent product R&amp;D lab.`;
-const S = 'Senior full-stack engineer focused on 0→1 AI products.';
+const S = 'Staff / Principal Software Engineer · Tech Lead · Builder.';
 const V = [
   { id:'A', t:'A. Hero band and product cards', n:'One wide hero band with the lab object. Real text links and the open-to-work line sit under it. Products are C1 cards, two per row, each its own link. Background stays text.',
     body:()=>`${hero(H,S)}${links}${otw}${intro}<h3>Products</h3><div class="g2">${P.map(card).join('')}</div>${bg}` },
