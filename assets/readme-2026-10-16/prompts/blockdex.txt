@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing BlockDex: search across public shadcn component registries, item by item.
+Concept: several short shelves of UI component blocks (buttons, cards, inputs as chunky tiles) with a magnifying glass lifting one tile out; that one tile carries the blue accent.

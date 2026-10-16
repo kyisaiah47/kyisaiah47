@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing AgentWire: a news wire that lists new AI agent tools and whether each tool is still maintained.
+Concept: a small upright wire-service ticker board with three rows of chunky tool modules (small robot heads, plugs and gears as blocks) slotted into it, and a tiny robot arm slotting a new module into the top row; that new module carries the blue accent.

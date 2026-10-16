@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing @gent: a person emails a coding task to themselves, a coding agent runs it on their own computer, and the reply comes back in the same email thread.
+Concept: a chunky closed envelope sliding into the screen of a small open laptop whose screen shows code as short grey bars, and a second reply envelope coming back out beside it; the blue accent is the outgoing envelope's flap.

@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing StillShipping: it reports which AI agent tools have stopped shipping updates, rescored nightly.
+Concept: a small loading dock with a few shipping crates, one crate on a platform scale under a lit status lamp and one idle crate at the side with a cobweb on it; the status lamp carries the blue accent.

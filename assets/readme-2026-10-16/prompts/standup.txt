@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing The Standup: a daily morning email of the software releases, security vulnerabilities and outages a developer has to act on.
+Concept: a small status board on a desk with three alert tiles (a release tag, a shield, a broken cable plug), an alarm clock and a coffee mug beside it; the shield tile carries the blue accent.

@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing OpenNews: it watches the news sources you choose, drops stale and duplicate items, and sorts the rest into one roundup.
+Concept: a folded newspaper roundup standing at the front, behind it a small sorting rack of short news cards with one card falling into a small discard bin; a short summary tag clipped to the newspaper carries the blue accent.

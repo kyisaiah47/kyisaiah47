@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing SkillWorks: it scores every Claude Code skill, subagent and plugin on whether it actually loads.
+Concept: a workshop pegboard holding several plug-in cartridges, with one cartridge seated in a small test socket on a bench below it and a status light lit on the socket; the lit status light carries the blue accent.

@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing RuleStack: it collects real AI coding rule files from live code repositories every night, sorts them by tech stack and scores them.
+Concept: a compact library shelf of small labelled bins, each holding a few slim rule-file cards, with a small dial score gauge on top of the shelf; one card pulled half out of its bin carries the blue accent.

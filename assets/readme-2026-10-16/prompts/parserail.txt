@@ -1,0 +1,2 @@
+Primary request: one literal miniature scene representing ParseRail: an API that reads an invoice or receipt and returns its fields as structured data.
+Concept: a single invoice card standing upright on a small stand with a magnifying lens in front of it, and beside it a tidy tray of neat rectangular field tiles lifted out of the invoice, arranged in rows; one field tile carries the blue accent.
