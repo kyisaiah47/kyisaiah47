@@ -101,7 +101,7 @@ const P = [
 const obj = (k, cls='obj') => `<img class="${cls}" src="objects/${k}.png" alt="" onerror="this.outerHTML='<div class=&quot;${cls} pending&quot;>Codex object rendering</div>'">`;
 const mark = (k) => `<img class="pm" src="marks/${k}.svg" alt="">`;
 const grid = '<div class="dots"></div><div class="rail"></div><div class="plus a"></div><div class="plus b"></div>';
-const hero = (h, s, pill='thecompound.tech') => `<a class="gfx hero"><div class="c">${grid}${obj('hero')}<div class="txt"><p class="h">${h}</p><p class="s">${s}</p></div><div class="lock">${LAB}<span class="pill">${pill}</span></div></div></a>`;
+const hero = (h, s, pill='thecompound.tech') => `<a class="gfx hero" href="https://thecompound.tech"><div class="c">${grid}${obj('hero')}<div class="txt"><p class="h">${h}</p><p class="s">${s}</p></div><div class="lock">${LAB}<span class="pill">${pill}</span></div></div></a>`;
 const card = (p) => `<a class="gfx card" href="https://${p.url}"><div class="c">${grid}${obj(p.key)}<div class="txt"><p class="h">${mark(p.key)}<span class="nm">${p.name}</span> ${p.h}</p><p class="s">${p.s}</p></div><div class="lock">${LAB}<span class="pill">${p.url}</span></div></div></a>`;
 const tile = (p) => `<a class="gfx tile" href="https://${p.url}"><div class="c"><div class="dots"></div><div class="txt"><p class="h">${mark(p.key)}<span class="nm">${p.name}</span></p><p class="s">${p.h.charAt(0).toUpperCase()+p.h.slice(1)}</p></div><span class="pill">${p.url}</span></div></a>`;
 const band = (t) => `<div class="gfx band"><div class="c"><div class="dots"></div><div class="rail"></div><div class="txt"><p class="h">${t}</p></div></div></div>`;
