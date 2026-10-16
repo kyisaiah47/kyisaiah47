@@ -48,6 +48,7 @@ body{margin:0;background:transparent}
 .gfx .pill{display:inline-flex;align-items:center;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-weight:400;background:#fff;box-shadow:inset 0 0 0 .08cqw var(--rule);border-radius:999px;color:var(--ink3);letter-spacing:0}
 .gfx .nm{color:var(--blue)}
 .gfx .pm{display:inline-block;height:.8em;width:auto;vertical-align:-.04em;margin-right:.22em}
+.gfx .wm{display:inline-block;height:1.04em;width:auto;vertical-align:-.21em;margin-right:.08em} /* registry wordmark, viewBox -740..180: descender sits on the baseline offset */
 .hero{aspect-ratio:7/2}
 .hero .dots{right:auto;width:36cqw;-webkit-mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%);mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%)}
 .hero .rail{left:36cqw}.hero .plus.a{left:36cqw;top:2.6cqw}.hero .plus.b{left:36cqw;top:auto;bottom:2.6cqw;transform:translate(-50%,50%)}
@@ -71,7 +72,7 @@ body{margin:0;background:transparent}
 const grid = '<div class="dots"></div><div class="rail"></div><div class="plus a"></div><div class="plus b"></div>';
 const host = (u) => new URL(u).host;
 const heroHtml = () => `<div class="gfx hero" id="g"><div class="c">${grid}<img class="obj" src="objects/hero.png" alt=""><div class="txt"><p class="h">${HERO.h}</p><p class="s">${HERO.s}</p></div><div class="lock">${LAB}<span class="pill">${HERO.pill}</span></div></div></div>`;
-const cardHtml = (p) => `<div class="gfx card" id="g"><div class="c">${grid}<img class="obj" src="objects/${p.slug}.png" alt=""><div class="txt"><p class="h"><img class="pm" src="marks/${p.icon}.svg" alt=""><span class="nm">${p.name}</span> ${p.h}</p><p class="s">${p.s}</p></div><div class="lock">${LAB}<span class="pill">${host(p.url)}</span></div></div></div>`;
+const cardHtml = (p) => `<div class="gfx card" id="g"><div class="c">${grid}<img class="obj" src="objects/${p.slug}.png" alt=""><div class="txt"><p class="h">${p.wordmark ? `<img class="wm" src="marks/${p.wordmark}" alt="${p.name}">` : `<img class="pm" src="marks/${p.icon}.svg" alt=""><span class="nm">${p.name}</span>`} ${p.h}</p><p class="s">${p.s}</p></div><div class="lock">${LAB}<span class="pill">${host(p.url)}</span></div></div></div>`;
 const page = (body, w) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body><div style="width:${w}px">${body}</div></body></html>`;
 
 async function renderAll(browser) {
@@ -164,7 +165,7 @@ function writeReadme(r) {
   const hero = `<a href="${HERO.url}"><img src="./${REL}/hero.png" alt="${attr(heroAlt)}" width="100%"></a>`;
   const card = (p) => `<a href="${p.url}"><img src="./${REL}/card-${p.slug}.png" alt="${attr(`${p.name} ${p.h} ${p.s}`)}" width="49%"></a>`;
   const rows = [];
-  const FEATURED = ['atgent', 'opencal', 'blockdex']; // Isaiah 2026-10-16: "i want feautred: atgent, opencal, blockdex"
+  const FEATURED = ['atgent', 'opencal', 'blockdex', 'agentwire']; // Isaiah 2026-10-16: "i want feautred: atgent, opencal, blockdex" / "agentwire as the 4th"
   const shown = FEATURED.map((k) => products.find((p) => p.slug === k));
   for (let i = 0; i < shown.length; i += 2) rows.push(`<p>\n${shown.slice(i, i + 2).map(card).join('\n')}\n</p>`);
   const experience = r.roles.map((x) => [

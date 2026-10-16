@@ -17,6 +17,7 @@
 
 <p>
 <a href="https://blockdex.dev"><img src="./assets/readme-2026-10-16/card-blockdex.png" alt="BlockDex searches individual components across public shadcn registries. Each item comes with its install command and dependencies." width="49%"></a>
+<a href="https://agentwire.thecompound.tech"><img src="./assets/readme-2026-10-16/card-agentwire.png" alt="AgentWire lists new agent tools and AI lab model changes. It also tracks AI coding tool prices and whether a tool is still maintained." width="49%"></a>
 </p>
 
 ### Work Experience
