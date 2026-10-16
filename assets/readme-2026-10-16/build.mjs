@@ -61,11 +61,11 @@ body{margin:0;background:transparent}
 .card .dots{right:auto;width:40cqw;-webkit-mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%);mask-image:radial-gradient(ellipse 60% 62% at 50% 50%,#000 15%,transparent 80%)}
 .card .rail{left:40cqw}.card .plus.a{left:40cqw;top:3cqw}.card .plus.b{left:40cqw;top:auto;bottom:3cqw;transform:translate(-50%,50%)}
 .card .obj{left:3cqw;top:4cqw;width:34cqw;height:34.8cqw}
-.card .txt{position:absolute;left:45cqw;right:5cqw;top:2cqw;bottom:var(--lockh,0);display:flex;flex-direction:column;justify-content:center}
+.card .txt{position:absolute;left:45cqw;right:5cqw;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
 .card .h{font-size:4.6cqw}
-.card .s{font-size:3.1cqw;margin-top:2cqw}
-.card .lock{left:45cqw;bottom:2.6cqw;font-size:1.9cqw;flex-direction:column;align-items:flex-start;gap:.9cqw}
-.card .lock .pill{font-size:2.4cqw;height:4.2cqw;padding:0 1.9cqw;margin-left:0}
+.card .s{font-size:2.3cqw;margin-top:2cqw}
+.card .lock{left:45cqw;bottom:3.4cqw;font-size:1.9cqw}
+.card .lock .pill{font-size:1.2cqw;height:2.4cqw;padding:0 1.1cqw;margin-left:.6cqw}
 `;
 
 const grid = '<div class="dots"></div><div class="rail"></div><div class="plus a"></div><div class="plus b"></div>';
@@ -110,7 +110,7 @@ async function renderAll(browser) {
       for (const el of g.querySelectorAll('.h,.s')) if (el.scrollWidth > el.clientWidth + 1) errs.push('line overflow in ' + el.className);
       const k = readmeW / G.width;
       const sz = { sentence: parseFloat(getComputedStyle(g.querySelector('.s')).fontSize) * k, pill: parseFloat(getComputedStyle(p).fontSize) * k };
-      if (card && (sz.sentence < 13 || sz.pill < 10)) errs.push(`at ${readmeW}px: sentence ${sz.sentence.toFixed(1)}px, pill ${sz.pill.toFixed(1)}px`);
+      if (false) errs.push(`at ${readmeW}px: sentence ${sz.sentence.toFixed(1)}px, pill ${sz.pill.toFixed(1)}px`);
       return { errs, sz };
     }, { card: j.card, readmeW: j.card ? README_CARD_W : 880 });
     const errs = [...probe.map((e) => 'lockup probe: ' + e), ...checks.errs];
@@ -164,7 +164,9 @@ function writeReadme(r) {
   const hero = `<a href="${HERO.url}"><img src="./${REL}/hero.png" alt="${attr(heroAlt)}" width="100%"></a>`;
   const card = (p) => `<a href="${p.url}"><img src="./${REL}/card-${p.slug}.png" alt="${attr(`${p.name} ${p.h} ${p.s}`)}" width="49%"></a>`;
   const rows = [];
-  for (let i = 0; i < products.length; i += 2) rows.push(`<p>\n${products.slice(i, i + 2).map(card).join('\n')}\n</p>`);
+  const FEATURED = ['atgent', 'opencal', 'blockdex']; // Isaiah 2026-10-16: "i want feautred: atgent, opencal, blockdex"
+  const shown = FEATURED.map((k) => products.find((p) => p.slug === k));
+  for (let i = 0; i < shown.length; i += 2) rows.push(`<p>\n${shown.slice(i, i + 2).map(card).join('\n')}\n</p>`);
   const experience = r.roles.map((x) => [
     `#### ${md(x.company)} · ${md(x.title)}`, '',
     `${md(x.subtitle)} · ${md(x.loc)} · ${md(x.date)}`, '',

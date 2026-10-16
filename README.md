@@ -11,57 +11,12 @@
 ### Products
 
 <p>
-<a href="https://opencal.link"><img src="./assets/readme-2026-10-16/card-opencal.png" alt="OpenCal shows your free time from all your calendars on one link. People see when you are free. They never see your events." width="49%"></a>
-<a href="https://blockdex.dev"><img src="./assets/readme-2026-10-16/card-blockdex.png" alt="BlockDex searches individual components across public shadcn registries. Each item comes with its install command and dependencies." width="49%"></a>
-</p>
-
-<p>
-<a href="https://stacktab.thecompound.tech"><img src="./assets/readme-2026-10-16/card-stacktab.png" alt="StackTab prices a database, auth, payments and a host as one monthly bill. See the bill at 1,000, 10,000 and 100,000 users." width="49%"></a>
-<a href="https://kitgrade.thecompound.tech"><img src="./assets/readme-2026-10-16/card-kitgrade.png" alt="KitGrade scores SaaS starter kits on what a buyer can check before paying. Each kit is labelled hands-on or documented." width="49%"></a>
-</p>
-
-<p>
 <a href="https://atgent.dev"><img src="./assets/readme-2026-10-16/card-atgent.png" alt="@gent runs a coding task you email to yourself. Codex or Claude Code runs it on your computer and replies in the same Gmail thread." width="49%"></a>
-<a href="https://parserail.thecompound.tech"><img src="./assets/readme-2026-10-16/card-parserail.png" alt="ParseRail turns an invoice or receipt into structured JSON. A document parse costs $0.10, with no subscription." width="49%"></a>
+<a href="https://opencal.link"><img src="./assets/readme-2026-10-16/card-opencal.png" alt="OpenCal shows your free time from all your calendars on one link. People see when you are free. They never see your events." width="49%"></a>
 </p>
 
 <p>
-<a href="https://opencomply.thecompound.tech"><img src="./assets/readme-2026-10-16/card-opencomply.png" alt="OpenComply drafts your filing from your own documents. Every sentence cites the page it came from." width="49%"></a>
-<a href="https://openjobs.thecompound.tech"><img src="./assets/readme-2026-10-16/card-openjobs.png" alt="OpenJobs tailors each application from one experience bank. OpenJobs sends nothing until you approve it." width="49%"></a>
-</p>
-
-<p>
-<a href="https://opennews.thecompound.tech"><img src="./assets/readme-2026-10-16/card-opennews.png" alt="OpenNews sorts the news on your beat into one roundup. Each item it keeps gets a short summary and a link to its source." width="49%"></a>
-<a href="https://openreel.thecompound.tech"><img src="./assets/readme-2026-10-16/card-openreel.png" alt="OpenReel makes a short narrated video from a Wikipedia article. Your browser makes each video. Your own AI key writes each script." width="49%"></a>
-</p>
-
-<p>
-<a href="https://opensocials.thecompound.tech"><img src="./assets/readme-2026-10-16/card-opensocials.png" alt="OpenSocials plans the day's posts and waits for your approval. It posts to Bluesky, X, LinkedIn and YouTube today." width="49%"></a>
-<a href="https://agentwire.thecompound.tech"><img src="./assets/readme-2026-10-16/card-agentwire.png" alt="AgentWire lists new agent tools and AI lab model changes. It also tracks AI coding tool prices and whether a tool is still maintained." width="49%"></a>
-</p>
-
-<p>
-<a href="https://agentwire.thecompound.tech/context-window"><img src="./assets/readme-2026-10-16/card-ctxwindow.png" alt="Context Window records what changed in the AI labs' own documents. It reads model cards, pricing pages and API changelogs." width="49%"></a>
-<a href="https://agentwire.thecompound.tech/tooldrift"><img src="./assets/readme-2026-10-16/card-tooldrift.png" alt="ToolDrift shows which coding model Cursor, Claude Code and Copilot run tonight. It ranks the models by adoption every night." width="49%"></a>
-</p>
-
-<p>
-<a href="https://agentwire.thecompound.tech/stillshipping"><img src="./assets/readme-2026-10-16/card-stillshipping.png" alt="StillShipping reports which agent tools have stopped shipping. It rescores them every night from the GitHub API." width="49%"></a>
-<a href="https://skillworks.thecompound.tech"><img src="./assets/readme-2026-10-16/card-skillworks.png" alt="SkillWorks scores every Claude Code skill, subagent and plugin. The score says whether it actually loads." width="49%"></a>
-</p>
-
-<p>
-<a href="https://skillworks.thecompound.tech/rulestack"><img src="./assets/readme-2026-10-16/card-rulestack.png" alt="RuleStack indexes real AGENTS.md and CLAUDE.md files every night. It classifies each file by stack and scores it." width="49%"></a>
-<a href="https://standup.thecompound.tech"><img src="./assets/readme-2026-10-16/card-standup.png" alt="The Standup lists the releases, CVEs and outages you have to act on. One email arrives each day at 07:40." width="49%"></a>
-</p>
-
-<p>
-<a href="https://frontwire.thecompound.tech"><img src="./assets/readme-2026-10-16/card-frontwire.png" alt="Front Wire carries breaking news minutes after the source publishes. Every item links to the agency, filing or outlet it came from." width="49%"></a>
-<a href="https://stillmornings.thecompound.tech"><img src="./assets/readme-2026-10-16/card-stillmornings.png" alt="Still Mornings keeps the words from short videos about slow mornings. Every entry started as a thirty-second video." width="49%"></a>
-</p>
-
-<p>
-<a href="https://whyyourbrain.thecompound.tech"><img src="./assets/readme-2026-10-16/card-whyyourbrain.png" alt="Why Your Brain Does That names what your brain does and why. Every entry was written to be spoken over a few seconds of footage." width="49%"></a>
+<a href="https://blockdex.dev"><img src="./assets/readme-2026-10-16/card-blockdex.png" alt="BlockDex searches individual components across public shadcn registries. Each item comes with its install command and dependencies." width="49%"></a>
 </p>
 
 ### Work Experience
