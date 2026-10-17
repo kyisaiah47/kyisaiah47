@@ -21,7 +21,7 @@ const products = JSON.parse(fs.readFileSync(path.join(DIR, 'products.json'), 'ut
 const LAB = lockup.html();
 const LAB_NAME = 'Compound Labs';
 const HERO = {
-  h: `Founder of ${LAB_NAME}, an independent product R&amp;D lab.`,
+  h: `Founder of ${LAB_NAME}, an independent software company.`,
   s: 'Staff / Principal Software Engineer · Tech Lead · Builder.',
   pill: 'thecompound.tech',
   url: 'https://thecompound.tech',
@@ -82,9 +82,11 @@ async function renderAll(browser) {
     ...products.map((p) => ({ name: `card-${p.slug}`, html: cardHtml(p), w: CARD_W, card: true }))]
     .filter((j) => !only.length || only.some((o) => j.name.includes(o)));
   const failures = [];
+  const tempRoot = fs.mkdtempSync('/private/tmp/profile-render-');
+  try {
   for (const j of jobs) {
-    const tmp = path.join(DIR, `.render-${j.name}.html`);
-    fs.writeFileSync(tmp, page(j.html, j.w));
+    const tmp = path.join(tempRoot, `${j.name}.html`);
+    fs.writeFileSync(tmp, page(j.html, j.w).replace('<head>', `<head><base href="${new URL('file://' + DIR + '/').href}">`));
     const pg = await ctx.newPage();
     await pg.goto('file://' + tmp, { waitUntil: 'load' });
     await pg.evaluate(() => document.fonts.ready);
@@ -124,6 +126,10 @@ async function renderAll(browser) {
     fs.rmSync(tmp);
   }
   if (failures.length) throw new Error('graphics failed:\n' + failures.join('\n'));
+  } finally {
+    await ctx.close();
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
 }
 
 async function resume(browser) {
