@@ -8,11 +8,11 @@
 
 </div>
 
-I build products end to end: research, product decisions, engineering, launch and operations. I run Compound Labs, an independent software company, where I ship and operate my own products with Claude Code and Codex agents.
+I build products end to end: research, product decisions, engineering, launch and operations. I run Compound Labs, an independent R&D lab, where I ship and operate my own products with Claude Code and Codex agents.
 
 ### Compound Labs
 
-[Compound Labs](https://thecompound.tech) is an independent software company. I research problems, build products for them, launch them and keep them running.
+[Compound Labs](https://thecompound.tech) is an independent R&D lab. I research problems, build products for them, launch them and keep them running.
 
 - **AI software factory.** Parallel Claude Code and Codex agents work across research, product, infrastructure and operations. Tests, hooks and quality gates check the work before it reaches production.
 - **Operator platform.** One internal console tracks products, traffic, search, model costs and social posts. An MCP server answers questions about that data.
