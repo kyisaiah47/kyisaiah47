@@ -21,7 +21,7 @@ const products = JSON.parse(fs.readFileSync(path.join(DIR, 'products.json'), 'ut
 const LAB = lockup.html();
 const LAB_NAME = 'Compound Labs';
 const HERO = {
-  h: `Founder of ${LAB_NAME}, an independent R&D lab.`,
+  h: `Founder of ${LAB_NAME}, an independent product R&D lab.`,
   s: 'Staff / Principal Software Engineer · Tech Lead · Builder.',
   pill: 'thecompound.tech',
   url: 'https://thecompound.tech',
