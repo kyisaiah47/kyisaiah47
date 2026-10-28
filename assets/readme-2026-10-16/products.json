@@ -151,21 +151,5 @@
     "url": "https://frontwire.thecompound.tech",
     "h": "carries breaking news minutes after the source publishes.",
     "s": "Every item links to the agency, filing or outlet it came from."
-  },
-  {
-    "slug": "stillmornings",
-    "icon": "still-mornings",
-    "name": "Still Mornings",
-    "url": "https://stillmornings.thecompound.tech",
-    "h": "keeps the words from short videos about slow mornings.",
-    "s": "Every entry started as a thirty-second video."
-  },
-  {
-    "slug": "whyyourbrain",
-    "icon": "whyyourbraindoesthat",
-    "name": "Why Your Brain Does That",
-    "url": "https://whyyourbrain.thecompound.tech",
-    "h": "names what your brain does and why.",
-    "s": "Every entry was written to be spoken over a few seconds of footage."
   }
 ]
