@@ -143,13 +143,5 @@
     "url": "https://standup.thecompound.tech",
     "h": "lists the releases, CVEs and outages you have to act on.",
     "s": "One email arrives each day at 07:40."
-  },
-  {
-    "slug": "frontwire",
-    "icon": "frontwire",
-    "name": "Front Wire",
-    "url": "https://frontwire.thecompound.tech",
-    "h": "carries breaking news minutes after the source publishes.",
-    "s": "Every item links to the agency, filing or outlet it came from."
   }
 ]
