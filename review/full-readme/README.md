@@ -62,7 +62,6 @@ I was the division’s first web engineer, owning frontend architecture and cros
 - **Capital Technology Group** — React and Java Spring Boot on a USCIS government contract serving millions of users, including WCAG accessibility work.
 - **NoNameCharli** — led three junior engineers and shipped a live NFT mint across Next.js, Ethers.js, Hardhat, and Solidity.
 - **Visneta** — led a complete Vue.js product redesign in direct collaboration with company leadership.
-- **Drexel University** — B.S. Computer Science, *Cum Laude*.
 
 <details>
 <summary><strong>Recognition and technical range</strong></summary>
