@@ -40,6 +40,7 @@ I was the first web engineer in the Private Markets division.
 - **Capital Technology Group** · React and Spring Boot features for uscis.gov, which serves millions of users.
 - **NoNameCharli** · Led three engineers and shipped a Next.js product with a live NFT mint.
 - **Visneta** · Led a year-long redesign of the company's Vue.js web app.
+- **Drexel University** · B.S. Computer Science, Cum Laude.
 
 <details>
 <summary><strong>Awards and stack</strong></summary>
